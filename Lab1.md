@@ -10,7 +10,7 @@ This Lab is organized into the following 4 Challenges:
 
 Each challenge has a set of tasks that need to be completed in order to move on to the next challenge. It is advisable to complete the challenges and tasks in the prescribed order.
 
-- [Return to HomePage](./readme.md)
+- ◀️ [Return to Homepage](readme.md)
 ## **Earn a digital badge!**
 
 In order to receive the "KQL-Database-In-A-Day" digital badge, you will need to complete the tasks marked with ✅ in Lab 1 & Lab 2. Submit your answers for Lab 1 and Lab 2 quizzes in order to receive the "KQL Database in a Day" digital badge. You may edit your answers after or try again.
