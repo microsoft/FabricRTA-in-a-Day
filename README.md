@@ -4,12 +4,12 @@ Welcome to a One Day, Hands on workshop on Microsoft Fabric Real Time Analytics.
 
 
 ## After the workshop, you'll better understand how to
-- Create KQL database in your Fabric enabled Power BI workspace
-- Ingest data into KQL Database using Eventstreams
-- Run Powerful KQL queries to explore the data in KQL Queryset
+- Create **KQL database** in your Fabric enabled Power BI workspace
+- Ingest data into KQL Database using **Eventstreams**
+- Run Powerful KQL queries to explore the data in **KQL Queryset**
 - Manage KQL Database using control commands and policies
-- Visualize data in Fabric Real Time Dashboards or Power BI Reports
-- Monitor & Alert using Data Activator (Reflex)
+- Visualize data in Fabric **Real Time Dashboards** or **Power BI Reports**
+- Monitor & Alert using **Data Activator** (Reflex)
 
 
  [**Lab 1: Database Creation, Data Ingestion and Exploration**](./Lab1.md)
