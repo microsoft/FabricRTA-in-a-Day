@@ -9,7 +9,7 @@ Welcome to a One Day, Hands on workshop on Microsoft Fabric Real Time Analytics.
 - Run Powerful KQL queries to explore the data in KQL Queryset
 - Manage KQL Database using control commands and policies
 - Visualize data in Fabric Real Time Dashboards or Power BI Reports
-- Monitor & Alert using Data Activator (Refelx)
+- Monitor & Alert using Data Activator (Reflex)
 
 
  [**Lab 1: Database Creation, Data Ingestion and Exploration**](./Lab1.md)
