@@ -17,7 +17,7 @@ In order to receive the "KQL-Database-In-A-Day" digital badge, you will need to 
 
 | :information_source: **Note**    |
 |:---------------------------|
-| **For Lab 1, please submit the results for the tasks marked with ✅ in the following link**: [Quiz KQL Database in A Day Lab 1](https://forms.office.com/r/qZ0yghDwyb) |
+| **For Lab 1, please submit the results for the tasks marked with ✅ in the following link**: [Quiz KQL Database in A Day Lab 1](https://forms.office.com/r/bV9RCiLVuJ)
 
 | :information_source: **Note**    |
 |:---------------------------|
