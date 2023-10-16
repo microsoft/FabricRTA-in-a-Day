@@ -1,8 +1,8 @@
 # Provisioning Fabric Trial Tenant
 ## Value Based Delivery resources
-July 2023 
- 
-Contents
+July 2023
+
+### Contents
 1. Document Purpose
 2. Technical Design
 3. Procedure
