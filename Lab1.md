@@ -10,7 +10,7 @@ This Lab is organized into the following 4 Challenges:
 
 Each challenge has a set of tasks that need to be completed in order to move on to the next challenge. It is advisable to complete the challenges and tasks in the prescribed order.
 
-- [Go to Fabric-KQL-Database-In-A-Day HomePage](https://github.com/Azure/Fabric-KQL-Database-in-a-Day)
+- [Return to HomePage](./readme.md)
 ## **Earn a digital badge!**
 
 In order to receive the "KQL-Database-In-A-Day" digital badge, you will need to complete the tasks marked with ✅ in Lab 1 & Lab 2. Submit your answers for Lab 1 and Lab 2 quizzes in order to receive the "KQL Database in a Day" digital badge. You may edit your answers after or try again.
@@ -284,7 +284,7 @@ This query has a single tabular expression statement. The statement begins with 
 
 **References:**
 
-- [KQL cheat sheets](https://learn.microsoft.com/en-us/azure/data-explorer/kql-quick-reference)
+- [KQL cheat sheets](https://learn.microsoft.com/azure/data-explorer/kql-quick-reference)
 
 ### **Challenge 3, Task 0 : Journey from SQL to KQL!**
 
@@ -315,7 +315,7 @@ logsRaw
 
 **References:**
 
-- [SQL to KQL cheat sheets - aka.ms/SQL2KQL](https://learn.microsoft.com/en-us/azure/data-explorer/kusto/query/sqlcheatsheet)
+- [SQL to KQL cheat sheets - aka.ms/SQL2KQL](https://learn.microsoft.com/azure/data-explorer/kusto/query/sqlcheatsheet)
 
 ### **Challenge 3, Task 1: Basic KQL queries - explore the data**
   
@@ -390,9 +390,9 @@ After subscripting a dynamic object, it is necessary to cast (convert) the value
 
 **References:**
 
-- [`extend` operator](https://docs.microsoft.com/en-us/azure/data-explorer/kusto/query/extendoperator)
-- [`tolong()`](https://learn.microsoft.com/en-us/azure/data-explorer/kusto/query/tolongfunction)
-- [`getschema` operator](https://docs.microsoft.com/en-us/azure/data-explorer/kusto/query/getschemaoperator)
+- [`extend` operator](https://docs.microsoft.com/azure/data-explorer/kusto/query/extendoperator)
+- [`tolong()`](https://learn.microsoft.com/azure/data-explorer/kusto/query/tolongfunction)
+- [`getschema` operator](https://docs.microsoft.com/azure/data-explorer/kusto/query/getschemaoperator)
 
 ### **Challenge 3, Task 3: Keep the columns of your interest ✅**
 
@@ -409,7 +409,7 @@ You are investigating an incident and wish to review only several columns of the
 
 **References:**
 
-- [`project` operator - Microsoft Docs](https://docs.microsoft.com/en-us/azure/data-explorer/kusto/query/projectoperator)
+- [`project` operator - Microsoft Docs](https://docs.microsoft.com/azure/data-explorer/kusto/query/projectoperator)
 
 ### **Challenge 3, Task 4: Filter the output ✅**
 
@@ -425,9 +425,9 @@ You are investigating an incident that occurred within a specific time frame.
 
 **References:**
 
-- [``datetime`` data type](https://learn.microsoft.com/en-us/azure/data-explorer/kusto/query/scalar-data-types/datetime)
-- [``where`` operator](https://docs.microsoft.com/en-us/azure/data-explorer/kusto/query/whereoperator)
-- [``between`` operator](https://learn.microsoft.com/en-us/azure/data-explorer/kusto/query/betweenoperator#filter-datetime)
+- [``datetime`` data type](https://learn.microsoft.com/azure/data-explorer/kusto/query/scalar-data-types/datetime)
+- [``where`` operator](https://docs.microsoft.com/azure/data-explorer/kusto/query/whereoperator)
+- [``between`` operator](https://learn.microsoft.com/azure/data-explorer/kusto/query/betweenoperator#filter-datetime)
 
 ### **Challenge 3, Task 5: Sorting the results ✅**
 
@@ -453,8 +453,8 @@ Your system generated an alert indicating a significant decrease in incoming dat
 
 **References:**
 
-- [``sort`` operator](https://docs.microsoft.com/en-us/azure/data-explorer/kusto/query/sort-operator)
-[top operator](https://docs.microsoft.com/en-us/azure/data-explorer/kusto/query/topoperator)
+- [``sort`` operator](https://docs.microsoft.com/azure/data-explorer/kusto/query/sort-operator)
+[top operator](https://docs.microsoft.com/azure/data-explorer/kusto/query/topoperator)
 
 ### **Challenge 3, Task 6: Data profiling ✅**
 
@@ -470,10 +470,10 @@ As part of the incident investigation, you want to extract `format` and `rowCoun
 
 **References:**
 
-- [`distinct` operator](https://learn.microsoft.com/en-us/azure/data-explorer/kusto/query/distinctoperator)
-- [`extend` operator](https://docs.microsoft.com/en-us/azure/data-explorer/kusto/query/extendoperator)
-- [`project-rename` operator](https://docs.microsoft.com/en-us/azure/data-explorer/kusto/query/projectrenameoperator)
-- [`project-reorder` operator](https://docs.microsoft.com/en-us/azure/data-explorer/kusto/query/projectreorderoperator)
+- [`distinct` operator](https://learn.microsoft.com/azure/data-explorer/kusto/query/distinctoperator)
+- [`extend` operator](https://docs.microsoft.com/azure/data-explorer/kusto/query/extendoperator)
+- [`project-rename` operator](https://docs.microsoft.com/azure/data-explorer/kusto/query/projectrenameoperator)
+- [`project-reorder` operator](https://docs.microsoft.com/azure/data-explorer/kusto/query/projectreorderoperator)
 
 ### **Challenge 3, Task 7: Total number of records ✅**
 
@@ -487,7 +487,7 @@ The system comprises of several "components", but you don't know their names or 
 
 **References:**
 
-- [`count` aggregation function](https://learn.microsoft.com/en-us/azure/data-explorer/kusto/query/count-aggfunction)
+- [`count` aggregation function](https://learn.microsoft.com/azure/data-explorer/kusto/query/count-aggfunction)
 
 ### **Challenge 3, Task 8: Aggregations and string operations ✅**
 
@@ -505,9 +505,9 @@ You assume that the incident being investigated has a connection to the ingestio
 
 **References:**
 
-- [String operators](https://docs.microsoft.com/en-us/azure/data-explorer/kusto/query/datatypes-string-operators)
+- [String operators](https://docs.microsoft.com/azure/data-explorer/kusto/query/datatypes-string-operators)
 
-- [``summarize`` operator](https://docs.microsoft.com/en-us/azure/data-explorer/kusto/query/summarizeoperator)
+- [``summarize`` operator](https://docs.microsoft.com/azure/data-explorer/kusto/query/summarizeoperator)
 
 ### **Challenge 3, Task 9: Render a chart ✅**
 
@@ -523,7 +523,7 @@ You assume that the incident being investigated has a connection to the ingestio
 
 **References:**
 
-- [``render`` operator](https://docs.microsoft.com/en-us/azure/data-explorer/kusto/query/renderoperator?pivots=azuredataexplorer)
+- [``render`` operator](https://docs.microsoft.com/azure/data-explorer/kusto/query/renderoperator?pivots=azuredataexplorer)
 
 ### **Challenge 3, Task 10: Create bins and visualize time series ✅**
 
@@ -539,8 +539,8 @@ You assume that the incident being investigated has a connection to the ingestio
 
 **References:**
 
-- [`bin()` - KQL Scalar functions](https://docs.microsoft.com/en-us/azure/data-explorer/kusto/query/binfunction)
-- [`summarize` operator](https://docs.microsoft.com/en-us/azure/data-explorer/kusto/query/summarizeoperator)
+- [`bin()` - KQL Scalar functions](https://docs.microsoft.com/azure/data-explorer/kusto/query/binfunction)
+- [`summarize` operator](https://docs.microsoft.com/azure/data-explorer/kusto/query/summarizeoperator)
 
 ### **Challenge 3, Task 11: Shortcuts**
 
@@ -561,9 +561,9 @@ Below are a few examples
 
 **References:**
 
-- [Kusto Web UI shortcuts | Microsoft Docs](https://learn.microsoft.com/en-us/azure/data-explorer/web-ui-query-keyboard-shortcuts)
+- [Kusto Web UI shortcuts | Microsoft Docs](https://learn.microsoft.com/azure/data-explorer/web-ui-query-keyboard-shortcuts)
 
-- [Kusto Explorer shortcuts | Microsoft Docs](https://learn.microsoft.com/en-us/azure/data-explorer/kusto/tools/kusto-explorer-shortcuts)
+- [Kusto Explorer shortcuts | Microsoft Docs](https://learn.microsoft.com/azure/data-explorer/kusto/tools/kusto-explorer-shortcuts)
 
 ## **Challenge 4: Explore and Transform Data**
 
@@ -610,7 +610,7 @@ For the next task, we will use the `logsRaw` table.
 
 **References:**
 
-- See the [`create function`](https://learn.microsoft.com/en-us/azure/data-explorer/kusto/management/create-function) article.
+- See the [`create function`](https://learn.microsoft.com/azure/data-explorer/kusto/management/create-function) article.
 
 ### **Challenge 4, Task 2: Create an update policy ✅**
 
@@ -713,7 +713,7 @@ In this task, we will use an `update policy` to filter the raw data in the `logs
 
     - ***Hint 1:*** Remember we have already ingested data into logsRaw in Challenge 2. We need the count of records from latest ingestion only.
     - ***Hint 2:*** `ingestion_time()` is a hidden column that stores ingested datetime of extents.
-    - ***Hint 3:*** Use [`ago()`](https://learn.microsoft.com/en-us/azure/data-explorer/kusto/query/agofunction) to filter for latest records inserted.
+    - ***Hint 3:*** Use [`ago()`](https://learn.microsoft.com/azure/data-explorer/kusto/query/agofunction) to filter for latest records inserted.
 
 9. What is the count of records that were ingested into `ingestionLogs(target)` table with this update policy?
 
@@ -723,7 +723,7 @@ In this task, we will use an `update policy` to filter the raw data in the `logs
 
 **References:**
 
-- [Kusto update policy - Microsoft Docs](https://docs.microsoft.com/en-us/azure/data-explorer/kusto/management/updatepolicy)
-- [Kusto Ingest from Storage - Microsoft Docs](https://learn.microsoft.com/en-us/azure/data-explorer/kusto/management/data-ingestion/ingest-from-storage)
+- [Kusto update policy - Microsoft Docs](https://docs.microsoft.com/azure/data-explorer/kusto/management/updatepolicy)
+- [Kusto Ingest from Storage - Microsoft Docs](https://learn.microsoft.com/azure/data-explorer/kusto/management/data-ingestion/ingest-from-storage)
 
 🎉 Congrats! You've completed KQL Database in a Day Lab 1. Keep going with [**Lab 2: Advanced KQL, Policies and Visualization**](https://github.com/Azure/KQL-Database-in-a-Day-Lab2)
