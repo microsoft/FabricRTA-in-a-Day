@@ -8,15 +8,15 @@ This Lab is organised into the following 4 challenges:
 | [Challenge 7](#challenge-7-going-more-advanced-with-kql)| Advanced KQL operators| 45 Min|
 | [Challenge 8](#challenge-8-task-1--find-the-anomaly-value-)| Visualization| 45 Min |
 
-- [Go to KQL-Database-In-A-Day Homepage](https://github.com/Azure/KQL-Database-in-a-Day)
+- ◀️ [Return to Homepage](readme.md)
 
 ## **Earn a digital badge!**
 
-In order to receive the "KQL-Database-In-A-Day" digital badge, you will need to complete the tasks marked with ✅ in [Lab 1](https://github.com/Azure/KQL-in-a-Day-Lab1) & Lab 2. Submit your answers for [Lab 1](https://forms.office.com/r/qZ0yghDwyb) and Lab 2 quizzes in order to receive the "ADX in a Day" digital badge. You may edit your answers after or try again.
+In order to receive the "KQL-Database-In-A-Day" digital badge, you will need to complete the tasks marked with ✅ in [Lab 1](Lab1.md) & Lab 2. Submit your answers for [Lab 1](https://forms.office.com/r/bV9RCiLVuJ) and Lab 2 quizzes in order to receive the "ADX in a Day" digital badge. You may edit your answers after or try again.
 
 | :information_source: **Note**    |
 |:---------------------------|
-|**For Lab 2, please submit the results for the tasks marked with ✅ in the following link**: [Quiz KQL Database in a Day Lab 2](https://forms.office.com/r/8z4DQ04eXH) |
+|**For Lab 2, please submit the results for the tasks marked with ✅ in the following link**: [Quiz Fabric RTA in a Day Lab 2](https://forms.office.com/r/fpSN0r7QLt) |
 
 | :information_source: **Note**    |
 |:---------------------------|
