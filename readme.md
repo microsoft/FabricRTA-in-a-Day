@@ -49,7 +49,8 @@ Contoso is planning to perform exploratory data analysis on the SQL DB logs. It 
 This workshop walks through the steps in designing, creating, and configuring KQL database keeping in mind these requirements. Once the KQL database is created, this workshop enlists the steps to ingest data into KQL database and tables using One Click ingestion.
 
 ### Pre-requisites
-- Either a Microsoft account (MSA) or an Azure Active Directory (AAD) identity. This will be used to create free cluster.
+- Provisioned Fabric environment or Trial.
+- See https://aka.ms/fabric-trial or [Provision Fabric Trial Tenant](/assets/ProvisionFabricTrialTenant.md). 
 
 ### How to start with KQL Database
 Generally, when starting with KQL Database in Fabric, you will follow the following steps (Fabric RTA Workshop Labs will cover all these steps):
