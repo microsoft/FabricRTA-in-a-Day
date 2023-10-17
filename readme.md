@@ -25,7 +25,7 @@ Earn a digital badge! In order to receive the KQL-Database-In-A-Day completion d
 
 ---
 
-### What is KQL Database and when is it a good fit?
+### What is Fabric Real Time Analytics and when is it a good fit?
 
 Microsoft Fabric Real-Time Analytics is a fully managed, high-performance, big data analytics platform that makes it easy to analyze high volumes of data in near real time. The Microsoft Fabric Real-Time Analytics toolbox gives you an end-to-end solution for data ingestion, query, visualization, and management.
 
