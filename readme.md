@@ -1,6 +1,6 @@
-# Fabric Real Time Analytics in a Day
+# Fabric Real-Time Analytics in a Day
 
-Welcome to a One Day, Hands on workshop on Microsoft Fabric Real Time Analytics. Microsoft is delighted to present this challenge based, discover by doing experience divided into 2 labs of 4 Hours each, a total of 8 hours.
+Welcome to a One Day, Hands-on workshop on Microsoft Fabric Real-Time Analytics. Microsoft is delighted to present this challenge based, discover by doing experience divided into 2 labs of 4 Hours each, a total of 8 hours.
 
 
 ## After the workshop, you'll better understand how to
