@@ -1,8 +1,12 @@
+![image](https://github.com/nataliarodri906/FabricRTA-in-a-Day/assets/130388388/6f303cc8-9865-4c5d-95ca-297376c940e8)
+
+
 # ADX-In-A-Day  
 ## Hands-on and fundamentals learning sessions on Azure Synapse Data Explorer
 
 ### Table of Contents  
- 1. Azure Synapse Data Explorer–In–A–Day
+
+ 1. Azure Synapse Data Explorer–In–A–Day  
  2. What are the expectations from a Proctor?
  3. Setting the Stage
  4. Start with a Presentation:
@@ -39,7 +43,10 @@ Being an instructor/proctor means that we are fully aware of entire program and 
 - Prior completion of challenges.  
 - Keep the sessions interactive by using questionnaires and polls.  
 - Unblock any individual or group with task specific guidance.  
-- Ensuring maximum tasks and feedback completion rate. Ex: Be sure to mention that participants completing all challenges will be issued a “ADX-In-A-Day’ completion badge from Credly.  
+- Ensuring maximum tasks and feedback completion rate. Ex: Be sure to mention that participants completing all challenges will be issued a “ADX-In-A-Day’ completion badge from Credly.
+  
+  	![image](https://github.com/nataliarodri906/FabricRTA-in-a-Day/assets/130388388/d680da90-c730-4320-92dc-b14e3735482b)
+
 - Improve the program by taking the feedback from participants back to Product Group.  
 - Improve the program by raising pull requests for bug fixes/content enhancement.  
 
@@ -57,20 +64,20 @@ Make sure you keep the audience’s best ineterests in mind when delivering the 
    |:------|:------
    | 15 min | **Kick-off / Team introduction** | 
    | 45 min | **Presentation – ADX introduction, positioning, competes and initial round of Q&A** | 
-   | 60 min | **Challenge 1 – Create Free ADX cluster & Challenge 2 – Load data from storage** |
+   | 60 min | **[Challenge 1 – Create Free ADX cluster](https://github.com/Azure/ADX-in-a-Day-Lab1#challenge-1-create-an-adx-cluster) & [Challenge 2 – Load data from storage](https://github.com/Azure/ADX-in-a-Day-Lab1#challenge-2-ingest-data-from-azure-storage-account)** |
    | 15 min | **Break** | 
    | 15 min | **Presentation – KQL, Schemas, Update policies** |
-   | 30 min | **Challenge 3 – Basics of KQL** | 
-   | 60 min | **Challenge 4 – Explore and transform data** | 
+   | 30 min | **[Challenge 3 – Basics of KQL](https://github.com/Azure/ADX-in-a-Day-Lab1#challenge-3-starting-with-the-basics-of-kql)** | 
+   | 60 min | **[Challenge 4 – Explore and transform data](https://github.com/Azure/ADX-in-a-Day-Lab1#challenge-4-explore-and-transform-data)** | 
 
    | Day 2 | Lab 2 |  
    |:------|:------ 
    | 15 min | **Day one feedback** |  
    | 45 min | **Presentation – ADX Schemas, Timeseries analysis, Machine Learning and Q&A** |  
-   | 60 min | **Challenge 5 – Caching and retention Policies & Challenge 6 – Control commands** |  
+   | 60 min | **[Challenge 5 – Caching and retention Policies](https://github.com/Azure/ADX-in-a-Day-Lab2#challenge-5-how-long-will-my-data-be-kept---caching-and-retention-policies) & [Challenge 6 – Control commands](https://github.com/Azure/ADX-in-a-Day-Lab2#challenge-6-metadata-objects-handling-using-control-commands)** |  
    | 15 min | **Break** |  
-   | 15 min | **Challenge 7 – Advanced KQL** | 
-   | 30 min | **Challenge 8 - Visualization** |  
+   | 15 min | **[Challenge 7 – Advanced KQL](https://github.com/Azure/ADX-in-a-Day-Lab2#challenge-7-going-more-advanced-with-kql)** | 
+   | 30 min | **[Challenge 8 - Visualization](https://github.com/Azure/ADX-in-a-Day-Lab2#challenge-8-visualization)** |  
    | 60 min | **Q&A and Closing discussions** |  
 
 4. Keep the sessions interactive. Start by spending 3-4 min to  
@@ -112,43 +119,50 @@ On both Day 1 and Day 2, Partcipants will spend 45 min at the start to learn cer
 Participants are required to complete 2 labs in the hands-on session to earn digital badge. Each lab is divded into 4 challenges and each challenge has a set of tasks. Some tasks are aimed at introducing the capability while others are requirements that need to be fulfilled to earn the badge. Tasks that require pasting queries in the answer sheets are marked with a ‘graduation hat’ 🎓next to the task header. Answer sheet for each lab is linked at the start of lab on the respective GitHub pages. Participants only need to paste the queries relating to tasks in the respective sections in answer sheets.
 
 The Learning sessions are divided into 2 Labs – Lab 1 and Lab 2. 
-	
 
+## Lab 1:
+
+![image](https://github.com/nataliarodri906/FabricRTA-in-a-Day/assets/130388388/0dc3c580-7f1e-446a-82b1-497430cb1706)
+
+## Lab 2:  
+
+![image](https://github.com/nataliarodri906/FabricRTA-in-a-Day/assets/130388388/0d855df8-207d-4508-9266-d5a5dd0f4807)
 
 # Frequently Asked Questions (FAQ):
 
-## Program related:
-Q: What are the eligibility criteria for badge?
-A: There are a total of 8 challenges and tasks under each challenge. Any task that is marked with a ‘graduation hat’ 🎓 is a mandatory question. Submitting all such marked tasks in the answer sheet makes you eligible for badge.
+## Program related:  
 
-Q: What do I paste in the answer sheet?
-A: Each task in GitHub is numbered as “Challenge x, Task y”. The answer sheets have the same text for each question. Paste the appropriate KQL queries in the given space. Submit the answer sheet only after you have completed all the tasks in a lab.
+*Q:* *What are the eligibility criteria for badge?*    
+**A:** There are a total of 8 challenges and tasks under each challenge. Any task that is marked with a ‘graduation hat’ 🎓 is a mandatory question. Submitting all such marked tasks in the answer sheet makes you eligible for badge.  
 
-Q: How many hours can I spend on each challenge?
-A: We have marked estimated duration to complete against each challenge in Lab 1 and Lab 2 Git Hub pages. While you are allowed to take time, it is recommended to avail help and complete the challenges in planned duration so that you can complete all challenges in 8 Hours sessions duration. Including introductions, presentations and break time, total hands-on time is approximately 6 hours.
+*Q:* *What do I paste in the answer sheet?*  
+**A:** Each task in GitHub is numbered as “Challenge x, Task y”. The answer sheets have the same text for each question. Paste the appropriate KQL queries in the given space. Submit the answer sheet only after you have completed all the tasks in a lab.  
 
-Q: Can I take more than 8 Hours/ Complete the Labs after the sessions?
-A: It is recommended to complete all challenges during the session.
+*Q:* *How many hours can I spend on each challenge?*  
+**A:** We have marked estimated duration to complete against each challenge in Lab 1 and Lab 2 Git Hub pages. While you are allowed to take time, it is recommended to avail help and complete the challenges in planned duration so that you can complete all challenges in 8 Hours sessions duration. Including introductions, presentations and break time, total hands-on time is approximately 6 hours.  
 
-Q: Am I allowed to discuss the questions/queries with peers?
-A: Yes, collaborative learning is encouraged but make sure you do not just copy paste the queries from a group discussion. Understand both the task and resulting query.
+*Q:* *Can I take more than 8 Hours/ Complete the Labs after the sessions?*  
+**A:** It is recommended to complete all challenges during the session.  
 
-Q: Can I take proctors help on tasks?
-A: Yes, ask questions, get clarity, and avail help from proctors if you have been blocked with certain tasks. We encourage you to share you screen while this discussion to help all the participants in the call.
+*Q:* *Am I allowed to discuss the questions/queries with peers?*  
+**A:** Yes, collaborative learning is encouraged but make sure you do not just copy paste the queries from a group discussion. Understand both the task and resulting query.  
 
-Q: Is it mandatory to submit the feedback form?
-A: No, but we encourage you to submit the feedback, so it helps us to continuously improve the program.
+*Q:* *Can I take proctors help on tasks?*  
+**A:** Yes, ask questions, get clarity, and avail help from proctors if you have been blocked with certain tasks. We encourage you to share you screen while this discussion to help all the participants in the call.  
 
-Q: I am Interested to a be an instructor/proctor for further sessions. What do I do?
-A: Please use the relevant field in feedback form to express your interest. We will contact you to collaborate.
+*Q:* *Is it mandatory to submit the feedback form?*    
+**A:** No, but we encourage you to submit the feedback, so it helps us to continuously improve the program.  
 
-Q: I have completed ADX-In-A-Day. What can I do to get deep technical knowledge and hands-on about Azure Synapse Data Explorer. 
-A: You can request for a 12 Hour hands on session (in open hack style) on ADX – ADX Microhack 
-Or you can try a challenging yet fun game to solve some real world puzzles using KQL – Kusto Detective Agency
+*Q:* *I am Interested to a be an instructor/proctor for further sessions. What do I do?*    
+**A:** Please use the relevant field in feedback form to express your interest. We will contact you to collaborate.  
 
-Q: Where can I nominate my team/customer/partner for the program?
-A: For Microsoft employees , you can use the request form – Learning sessions request form
-For Customer or Partners, please write to us at adxcse@microsoft.com
+*Q:* *I have completed ADX-In-A-Day. What can I do to get deep technical knowledge and hands-on about Azure Synapse Data Explorer.*   
+**A:** You can request for a 12 Hour hands on session (in open hack style) on ADX – ADX Microhack 
+Or you can try a challenging yet fun game to solve some real world puzzles using KQL – Kusto Detective Agency  
+
+*Q:* *Where can I nominate my team/customer/partner for the program?*    
+**A:** For Microsoft employees , you can use the request form – Learning sessions request form  
+For Customer or Partners, please write to us at adxcse@microsoft.com  
 
 ## Technical Questions:
 A dedicated document will be created for Azure Synapse Data Explorer technical questions.
@@ -165,22 +179,22 @@ ADX-In-A-Day is a learning program accessible to everyone. To continuously impro
 
 The following resources will be useful to successfully deliver ADX-In-A-Day
 
-Presentation and intro video
+## Presentation and intro video
 **placeholder **
 
-# Important links
+## Important links
 
-- ADX-In-A-Day Landing/Home Page
-- ADX-In-A-Day Lab 1
-- ADX-In-A-Day Lab 2
+- [ADX-In-A-Day Landing/Home Page](https://github.com/Azure/ADX-in-a-Day)
+- [ADX-In-A-Day Lab 1](https://github.com/Azure/ADX-in-a-Day-Lab1#lab1-cluster-creation-data-ingestion-and-exploration)
+- [ADX-In-A-Day Lab 2](https://github.com/Azure/ADX-in-a-Day-Lab2)
 
-- Lab 1 - Answer Sheet 1
-- Lab 2 - Answer Sheet 2
-- Feedback Form
+- [Lab 1 - Answer Sheet 1](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR3OPKsBBsbBPqE1PnbPVwDdUNTlUNVc4UEJGTjlQUFlMWERXRzdHNzlWSyQlQCN0PWcu)
+- [Lab 2 - Answer Sheet 2](
+- [Feedback Form]
 
-- Credly Badge site
+- [Credly Badge site](https://www.credly.com/org/microsoft-azure-data-explorer/badge/azure-data-explorer-in-a-day)
 
-# Answers
+## Answers
 
  
 
