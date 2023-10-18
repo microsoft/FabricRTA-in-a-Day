@@ -1,119 +1,123 @@
 # ADX-In-A-Day  
 ## Hands-on and fundamentals learning sessions on Azure Synapse Data Explorer
 
- 
-Contents  
-Azure Synapse Data Explorer–In–A–Day	2  
-What are the expectations from Proctor?	2
-Setting the Stage	3
-Start with a Presentation:	43
-Hands-on Labs:	4
-Frequently Asked Questions (FAQ):	76
-Program related:	76
-Technical Questions:	87
-Contribution to the Program:	87
-Useful Resources:	87
-Presentation and intro video	98
-Important links	98
-Answers	98
+### Table of Contents  
+ 1. Azure Synapse Data Explorer–In–A–Day
+ 2. What are the expectations from a Proctor?
+ 3. Setting the Stage
+ 4. Start with a Presentation:
+ 5. Hands-on Labs:  
+ 6. Frequently Asked Questions (FAQ):  
+    a. Program related:  
+    b. Technical Questions:  
+7. Contribution to the Program:  
+8. Useful Resources:   
+   a. Presentation and intro video  
+   b. Important links  
+   c. Answers  
 
+   
+# Azure Synapse Data Explorer–In–A–Day  
 
- 
-# Azure Synapse Data Explorer–In–A–Day   
-## ADX-In-A-Day is a hands-on, learning session aimed to provide Azure Synapse Data Explorer knowledge to participants having minimal or no prior exposure to the product. The topics covered in these hands-on sessions are fundamental topics relating to ADX and Kusto Query Language (KQL). The Learning sessions are divided into 2 labs meant to be delivered in any of the 2 following styles.
-•	2 days of 4 Hours each (Day 1 – Lab 1 and Day 2 – Lab 2) - Recommended
-(OR)
-•	1 day of 8 Hours (Day 1 – Lab 1 and Lab 2)
+ADX-In-A-Day is a hands-on, learning session aimed to provide Azure Synapse Data Explorer knowledge to participants having minimal or no prior exposure to the product. The topics covered in these hands-on sessions are fundamental topics relating to ADX and Kusto Query Language (KQL). The Learning sessions are divided into 2 labs meant to be delivered in any of the 2 following styles.
+
+- 2 days of 4 Hours each (Day 1 – Lab 1 and Day 2 – Lab 2) - Recommended (OR)
+- 1 day of 8 Hours (Day 1 – Lab 1 and Lab 2)
+  
 In case of fully remote or hybrid deliveries, we highly recommend to deliver it over 2 half days.
+
 This document is created to help instructors /proctors to successfully deliver ADX-In-A-Day to audience and make the content self-sufficient.  Proctors are encouraged to complete the labs prior to their delivery to have an end-to-end knowledge on topics, challenges, and tasks. Read further to get help on - Setting the stage for audience and their expectations, presentation, lab structure, FAQ, contribution to the content.  Instructors who complete delivery of at least one ADX-In-A-Day session will be issued a ‘Special’ ADX-In-A-Day Instructor badge.
+
 ** ADX-In-A-Day Instructor badge place holder **
-What are the expectations from Proctor?
-Being an instructor/proctor means that we are fully aware of entire program and can help participants achieve success in completing the challenges, learning ADX fundamentals, working with KQL queries and earning ADX-In-A-Badge.  Instructor are expected to -
-•	Block calendars to completely dedicate 8 hours’ time to ADX-In-A-Day.
-•	Be able to do presentation on the content.
-•	Prior completion of challenges.
-•	Keep the sessions interactive by using questionnaires and polls.
-•	Unblock any individual or group with task specific guidance.
-•	Ensuring maximum tasks and feedback completion rate. Ex: Be sure to mention that participants completing all challenges will be issued a “ADX-In-A-Day’ completion badge from Credly.
- 
-•	Improve the program by taking the feedback from participants back to Product Group.
-•	Improve the program by raising pull requests for bug fixes/content enhancement.
 
-Setting the Stage
-Make sure you keep the audience’s best ineterests in mind when delivering the sessions. Follow a similar path that is given below for initial 20 min
-1.	Spend 2 min on introduction of ADX-In-A-Day sessions. 
-2.	Spend 10 min on personal and team(other instructors on the call) introduction.
-3.	Spend 5 min to talk through the sessions Agenda and talk through the plan
-Agenda
+# What are the expectations from Proctor?  
 
-Day 1 – Lab 1
+Being an instructor/proctor means that we are fully aware of entire program and can help participants achieve success in completing the challenges, learning ADX fundamentals, working with KQL queries and earning ADX-In-A-Badge.  Instructor are expected to:
 
-15m	Kick-off / Team introduction
-45m	Presentation – ADX introduction, positioning, competes and initial round of Q&A
-60m	Challenge 1 – Create Free ADX cluster
-Challenge 2 – Load data from storage
+- Block calendars to completely dedicate 8 hours’ time to ADX-In-A-Day.  
+- Be able to do presentation on the content.  
+- Prior completion of challenges.  
+- Keep the sessions interactive by using questionnaires and polls.  
+- Unblock any individual or group with task specific guidance.  
+- Ensuring maximum tasks and feedback completion rate. Ex: Be sure to mention that participants completing all challenges will be issued a “ADX-In-A-Day’ completion badge from Credly.  
+- Improve the program by taking the feedback from participants back to Product Group.  
+- Improve the program by raising pull requests for bug fixes/content enhancement.  
 
-15m	Break
-15m	Presentation – KQL, Schemas, Update policies
-30m	Challenge 3 – Basics of KQL
+# Setting the Stage
 
-60m	Challenge 4 – Explore and transform data
+Make sure you keep the audience’s best ineterests in mind when delivering the sessions. Follow a similar path that is given below for initial 20 min.
 
+1. Spend 2 min on introduction of ADX-In-A-Day sessions.  
+2. Spend 10 min on personal and team(other instructors on the call) introduction.  
+3. Spend 5 min to talk through the sessions Agenda and talk through the plan.  
+   
+**Agenda**
 
-Day 2 – Lab 2
+   | Day 1 | Lab 1 |
+   |:------|:------
+   | 15 min | **Kick-off / Team introduction** | 
+   | 45 min | **Presentation – ADX introduction, positioning, competes and initial round of Q&A** | 
+   | 60 min | **Challenge 1 – Create Free ADX cluster & Challenge 2 – Load data from storage** |
+   | 15 min | **Break** | 
+   | 15 min | **Presentation – KQL, Schemas, Update policies** |
+   | 30 min | **Challenge 3 – Basics of KQL** | 
+   | 60 min | **Challenge 4 – Explore and transform data** | 
 
-15m	Day one feedback
-45m	Presentation – ADX Schemas, Timeseries analysis, Machine Learning and Q&A
-60m	Challenge 5 – Caching and retention Policies 
-Challenge 6 – Control commands
+   | Day 2 | Lab 2 |  
+   |:------|:------ 
+   | 15 min | **Day one feedback** |  
+   | 45 min | **Presentation – ADX Schemas, Timeseries analysis, Machine Learning and Q&A** |  
+   | 60 min | **Challenge 5 – Caching and retention Policies & Challenge 6 – Control commands** |  
+   | 15 min | **Break** |  
+   | 15 min | **Challenge 7 – Advanced KQL** | 
+   | 30 min | **Challenge 8 - Visualization** |  
+   | 60 min | **Q&A and Closing discussions** |  
 
-15m	Break
-30m	Challenge 7 – Advanced KQL
-
-60m	Challenge 8 - Visualization
-
-10m	Q&A and Closing discussions
-
-
- 
-4.	Keep the sessions interactive. Start by spending 3-4 min to
-a.	Get current mood/ excitement of audience
-b.	Ask audience about their expectations from the sessions
-c.	Are they familiar with ADX already? Completely new? Did they use KQL in other Azure products like Log Analytics or App Insights?
-d.	What roles are the audience majorly from? (Internal/External, Sellers/CSAs/GBBs/Customers/Partners)
+4. Keep the sessions interactive. Start by spending 3-4 min to  
+   a. Get current mood/ excitement of audience  
+   b, Ask audience about their expectations from the sessions  
+   c. Are they familiar with ADX already? Completely new? Did they use KQL in other Azure products like Log Analytics or App Insights?  
+   d. What roles are the audience majorly from? (Internal/External, Sellers/CSAs/GBBs/Customers/Partners)
+   
 Tip: Use Polls, Reactions or a similar feature to drive interaction and collect data.
-Start with a Presentation:
-On both Day 1 and Day 2, Partcipants will spend 45 min at the start to learn certain Azure Synapse Data Explorer and Kusto Query Language concepts listed below. ADX-In-A-Day presentation is meant to be delivered in the following style.
-•	Day 1 : 45 min followed by a 15 min Q&A – Presentation will include 
-o	Introduction to Azure Synapse Data Explorer.
-o	Value propsoition : Data foot print and growth expected, Importance of Real Time Analytics, Telemetry, Logs and Time series data growth.
-o	Current scale at which ADX works. Fun fact about “Kusto” word background.
-o	Introduction to Azure Synapse Data Explorer high level end-to-end Architecture (Eco system for ingestion, query and consumptiom)
-o	Enterprise ready features
-o	Positioning of ADX in Intelligence platform
-o	Example business scenario
-o	Competition and benchmarks
-o	Customer Stories – Any 5
-o	ADX schema – Cluster, database, table, functions, Materizlied View, policies
-o	Kusto Query Language introduction, concepts and basic operators
-o	SQL and KQL
-o	Update policies
-o	Optional: Include a demo if you prefer instead of some product slides
-•	Day 2 : 30 min followed by a 15 min Q&A – Presentation will include
-o	Storage and Caching concepts
-o	Let statements
-o	Time series Analysis
-o	ML capabilities
-o	ADX Dashboards
 
-Hands-on Labs:
+# Start with a Presentation:  
+
+On both Day 1 and Day 2, Partcipants will spend 45 min at the start to learn certain Azure Synapse Data Explorer and Kusto Query Language concepts listed below. ADX-In-A-Day presentation is meant to be delivered in the following style.
+
+- Day 1 : 45 min followed by a 15 min Q&A – Presentation will include
+  	- Introduction to Azure Synapse Data Explorer.
+  	- Value propsoition : Data foot print and growth expected, Importance of Real Time Analytics, Telemetry, Logs and Time series data growth.  
+  	- Current scale at which ADX works. Fun fact about “Kusto” word background.  
+  	- Introduction to Azure Synapse Data Explorer high level end-to-end Architecture (Eco system for ingestion, query and consumptiom)  
+  	- Enterprise ready features  
+  	- Positioning of ADX in Intelligence platform  
+  	- Example business scenario  
+  	- Competition and benchmarks  
+  	- Customer Stories – Any 5  
+  	- ADX schema – Cluster, database, table, functions, Materizlied View, policies  
+  	- Kusto Query Language introduction, concepts and basic operators  
+  	- SQL and KQL  
+  	- Update policies  
+  	- Optional: Include a demo if you prefer instead of some product slides  
+- Day 2 : 30 min followed by a 15 min Q&A – Presentation will include
+  	- Storage and Caching concepts
+  	- Let statements
+  	- Time series Analysis
+  	- ML capabilities
+  	- ADX Dashboards
+
+# Hands-on Labs:  
+
 Participants are required to complete 2 labs in the hands-on session to earn digital badge. Each lab is divded into 4 challenges and each challenge has a set of tasks. Some tasks are aimed at introducing the capability while others are requirements that need to be fulfilled to earn the badge. Tasks that require pasting queries in the answer sheets are marked with a ‘graduation hat’ 🎓next to the task header. Answer sheet for each lab is linked at the start of lab on the respective GitHub pages. Participants only need to paste the queries relating to tasks in the respective sections in answer sheets.
- The Learning sessions are divided into 2 Labs – Lab 1 and Lab 2. 
+
+The Learning sessions are divided into 2 Labs – Lab 1 and Lab 2. 
 	
 
 
-Frequently Asked Questions (FAQ):
-Program related:
+# Frequently Asked Questions (FAQ):
+
+## Program related:
 Q: What are the eligibility criteria for badge?
 A: There are a total of 8 challenges and tasks under each challenge. Any task that is marked with a ‘graduation hat’ 🎓 is a mandatory question. Submitting all such marked tasks in the answer sheet makes you eligible for badge.
 
@@ -125,7 +129,6 @@ A: We have marked estimated duration to complete against each challenge in Lab 1
 
 Q: Can I take more than 8 Hours/ Complete the Labs after the sessions?
 A: It is recommended to complete all challenges during the session.
-
 
 Q: Am I allowed to discuss the questions/queries with peers?
 A: Yes, collaborative learning is encouraged but make sure you do not just copy paste the queries from a group discussion. Understand both the task and resulting query.
@@ -147,32 +150,37 @@ Q: Where can I nominate my team/customer/partner for the program?
 A: For Microsoft employees , you can use the request form – Learning sessions request form
 For Customer or Partners, please write to us at adxcse@microsoft.com
 
-Technical Questions:
+## Technical Questions:
 A dedicated document will be created for Azure Synapse Data Explorer technical questions.
 
-Contribution to the Program:
+# Contribution to the Program:
 ADX-In-A-Day is a learning program accessible to everyone. To continuously improve the program, we encourage the instructors/proctors to take active part in contributing to the program. We encourage you to contribute using any of the following approaches.
-•	Raise a pull request on git hub pages with modifications/corrections/additions/removal of the content.
-•	Bring participants feedback to the product group.
-•	Discuss new ideas with product group to improve the program.
-•	Test new content/changes and features and provide feedback.
 
-Useful Resources:
+- Raise a pull request on git hub pages with modifications/corrections/additions/removal of the content.
+- Bring participants feedback to the product group.
+- Discuss new ideas with product group to improve the program.
+- Test new content/changes and features and provide feedback.
+
+# Useful Resources:
+
 The following resources will be useful to successfully deliver ADX-In-A-Day
+
 Presentation and intro video
 **placeholder **
-Important links
-•	ADX-In-A-Day Landing/Home Page
-•	ADX-In-A-Day Lab 1
-•	ADX-In-A-Day Lab 2
 
-•	Lab 1 - Answer Sheet 1
-•	Lab 2 - Answer Sheet 2
-•	Feedback Form
+# Important links
 
-•	Credly Badge site
+- ADX-In-A-Day Landing/Home Page
+- ADX-In-A-Day Lab 1
+- ADX-In-A-Day Lab 2
 
-Answers
+- Lab 1 - Answer Sheet 1
+- Lab 2 - Answer Sheet 2
+- Feedback Form
+
+- Credly Badge site
+
+# Answers
 
  
 
