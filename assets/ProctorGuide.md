@@ -1,51 +1,52 @@
-![image](https://github.com/nataliarodri906/FabricRTA-in-a-Day/assets/130388388/6f303cc8-9865-4c5d-95ca-297376c940e8)
 
-
-# ADX-In-A-Day  
-## Hands-on and fundamentals learning sessions on Azure Synapse Data Explorer
+![image](https://github.com/nataliarodri906/FabricRTA-in-a-Day/assets/130388388/59a3359b-234a-452a-adb6-e4526433ffb0)
+  
+# Fabric Real-Time Analytics In-A-Day  
+## Hands-on and fundamentals learning sessions on Fabric RTA
 
 ### Table of Contents  
 
- 1. Azure Synapse Data Explorer–In–A–Day  
+ 1. Fabric Real-Time Analytics In-A-Day   
  2. What are the expectations from a Proctor?
  3. Setting the Stage
- 4. Start with a Presentation:
- 5. Hands-on Labs:  
- 6. Frequently Asked Questions (FAQ):  
-    a. Program related:  
-    b. Technical Questions:  
-7. Contribution to the Program:  
-8. Useful Resources:   
+ 4. Start with a Presentation
+ 5. Hands-on Labs  
+ 6. Frequently Asked Questions (FAQ)  
+    a. Program related  
+    b. Technical Questions    
+7. Contribution to the Program  
+8. Useful Resources   
    a. Presentation and intro video  
    b. Important links  
    c. Answers  
 
    
-# Azure Synapse Data Explorer–In–A–Day  
+# Fabric Real-Time Analytics In-A-Day  
 
-ADX-In-A-Day is a hands-on, learning session aimed to provide Azure Synapse Data Explorer knowledge to participants having minimal or no prior exposure to the product. The topics covered in these hands-on sessions are fundamental topics relating to ADX and Kusto Query Language (KQL). The Learning sessions are divided into 2 labs meant to be delivered in any of the 2 following styles.
+Fabric RTA-In-A-Day is a hands-on, learning session aimed to provide Fabric RTA knowledge to participants having minimal or no prior exposure to the product. The topics covered in these hands-on sessions are fundamental topics relating to ADX and Kusto Query Language (KQL). The Learning sessions are divided into 2 labs meant to be delivered in any of the 2 following styles.
 
 - 2 days of 4 Hours each (Day 1 – Lab 1 and Day 2 – Lab 2) - Recommended (OR)
 - 1 day of 8 Hours (Day 1 – Lab 1 and Lab 2)
   
 In case of fully remote or hybrid deliveries, we highly recommend to deliver it over 2 half days.
 
-This document is created to help instructors /proctors to successfully deliver ADX-In-A-Day to audience and make the content self-sufficient.  Proctors are encouraged to complete the labs prior to their delivery to have an end-to-end knowledge on topics, challenges, and tasks. Read further to get help on - Setting the stage for audience and their expectations, presentation, lab structure, FAQ, contribution to the content.  Instructors who complete delivery of at least one ADX-In-A-Day session will be issued a ‘Special’ ADX-In-A-Day Instructor badge.
+This document is created to help proctors to successfully deliver Fabric RTA-In-A-Day to audience and make the content self-sufficient.  Proctors are encouraged to complete the labs prior to their delivery to have an end-to-end knowledge on topics, challenges, and tasks. Read further to get help on - Setting the stage for audience and their expectations, presentation, lab structure, FAQ, contribution to the content.  Instructors who complete delivery of at least one Fabric RTA-In-A-Day session will be issued a ‘Special’ Fabric RTA-In-A-Day Instructor badge.
 
-** ADX-In-A-Day Instructor badge place holder **
+** Fabric RTA-In-A-Day Instructor badge place holder **
 
 # What are the expectations from Proctor?  
 
-Being an instructor/proctor means that we are fully aware of entire program and can help participants achieve success in completing the challenges, learning ADX fundamentals, working with KQL queries and earning ADX-In-A-Badge.  Instructor are expected to:
+Being an instructor/proctor means that we are fully aware of entire program and can help participants achieve success in completing the challenges, learning RTA fundamentals, working with KQL queries and earning Fabric RTA-In-A-Day.  Instructor are expected to:
 
-- Block calendars to completely dedicate 8 hours’ time to ADX-In-A-Day.  
+- Block calendars to completely dedicate 8 hours’ time to Fabric RTA-In-A-Day.  
 - Be able to do presentation on the content.  
 - Prior completion of challenges.  
 - Keep the sessions interactive by using questionnaires and polls.  
 - Unblock any individual or group with task specific guidance.  
-- Ensuring maximum tasks and feedback completion rate. Ex: Be sure to mention that participants completing all challenges will be issued a “ADX-In-A-Day’ completion badge from Credly.
+- Ensuring maximum tasks and feedback completion rate. Ex: Be sure to mention that participants completing all challenges will be issued a 'Fabric RTA-In-A-Day' completion badge from Credly.
   
-  	![image](https://github.com/nataliarodri906/FabricRTA-in-a-Day/assets/130388388/d680da90-c730-4320-92dc-b14e3735482b)
+  	![image](https://github.com/nataliarodri906/FabricRTA-in-a-Day/assets/130388388/02ace8f4-8e99-4156-9dcd-4fe2d4e4bb03)
+
 
 - Improve the program by taking the feedback from participants back to Product Group.  
 - Improve the program by raising pull requests for bug fixes/content enhancement.  
@@ -54,7 +55,7 @@ Being an instructor/proctor means that we are fully aware of entire program and 
 
 Make sure you keep the audience’s best ineterests in mind when delivering the sessions. Follow a similar path that is given below for initial 20 min.
 
-1. Spend 2 min on introduction of ADX-In-A-Day sessions.  
+1. Spend 2 min on introduction of Fabric RTA-In-A-Day sessions.  
 2. Spend 10 min on personal and team(other instructors on the call) introduction.  
 3. Spend 5 min to talk through the sessions Agenda and talk through the plan.  
    
@@ -63,56 +64,58 @@ Make sure you keep the audience’s best ineterests in mind when delivering the 
    | Day 1 | Lab 1 |
    |:------|:------
    | 15 min | **Kick-off / Team introduction** | 
-   | 45 min | **Presentation – ADX introduction, positioning, competes and initial round of Q&A** | 
-   | 60 min | **[Challenge 1 – Create Free ADX cluster](https://github.com/Azure/ADX-in-a-Day-Lab1#challenge-1-create-an-adx-cluster) & [Challenge 2 – Load data from storage](https://github.com/Azure/ADX-in-a-Day-Lab1#challenge-2-ingest-data-from-azure-storage-account)** |
+   | 45 min | **Presentation Part 1 – Fabric Introduction, RTA Overview, KQL Introduction** | 
+   | 60 min | **[Challenge 1 – Create a KQL Database](https://github.com/microsoft/FabricRTA-in-a-Day/blob/main/Lab1.md#challenge-1-create-a-kql-database) & [Challenge 2 – Load Data from Azure Storage](https://github.com/microsoft/FabricRTA-in-a-Day/blob/main/Lab1.md#challenge-2-ingest-data-from-azure-storage-account)** |
    | 15 min | **Break** | 
-   | 15 min | **Presentation – KQL, Schemas, Update policies** |
-   | 30 min | **[Challenge 3 – Basics of KQL](https://github.com/Azure/ADX-in-a-Day-Lab1#challenge-3-starting-with-the-basics-of-kql)** | 
-   | 60 min | **[Challenge 4 – Explore and transform data](https://github.com/Azure/ADX-in-a-Day-Lab1#challenge-4-explore-and-transform-data)** | 
+   | 15 min | **Presentation Part 1 – KQL, Schemas, Update policies** |
+   | 30 min | **[Challenge 3 – Starting with the basics of KQL](https://github.com/microsoft/FabricRTA-in-a-Day/blob/main/Lab1.md#challenge-3-starting-with-the-basics-of-kql)** | 
+   | 60 min | **[Challenge 4 – Explore and Transform Data](https://github.com/microsoft/FabricRTA-in-a-Day/blob/main/Lab1.md#challenge-4-explore-and-transform-data)** | 
 
    | Day 2 | Lab 2 |  
    |:------|:------ 
    | 15 min | **Day one feedback** |  
-   | 45 min | **Presentation – ADX Schemas, Timeseries analysis, Machine Learning and Q&A** |  
-   | 60 min | **[Challenge 5 – Caching and retention Policies](https://github.com/Azure/ADX-in-a-Day-Lab2#challenge-5-how-long-will-my-data-be-kept---caching-and-retention-policies) & [Challenge 6 – Control commands](https://github.com/Azure/ADX-in-a-Day-Lab2#challenge-6-metadata-objects-handling-using-control-commands)** |  
+   | 45 min | **Presentation Part 2 – Advanced KQL, Policies Visualization** |  
+   | 60 min | **[Challenge 5 – Caching and retention Policies](https://github.com/microsoft/FabricRTA-in-a-Day/blob/main/Lab2.md#challenge-5-how-long-will-my-data-be-kept---caching-and-retention-policies) & [Challenge 6 – Control commands](https://github.com/microsoft/FabricRTA-in-a-Day/blob/main/Lab2.md#challenge-6-metadata-objects-handling-using-control-commands)** |  
    | 15 min | **Break** |  
-   | 15 min | **[Challenge 7 – Advanced KQL](https://github.com/Azure/ADX-in-a-Day-Lab2#challenge-7-going-more-advanced-with-kql)** | 
-   | 30 min | **[Challenge 8 - Visualization](https://github.com/Azure/ADX-in-a-Day-Lab2#challenge-8-visualization)** |  
+   | 15 min | **[Challenge 7 – Advanced KQL](https://github.com/microsoft/FabricRTA-in-a-Day/blob/main/Lab2.md#challenge-7-going-more-advanced-with-kql)** | 
+   | 30 min | **[Challenge 8 - Visualization](https://github.com/microsoft/FabricRTA-in-a-Day/blob/main/Lab2.md#challenge-8-task-1--find-the-anomaly-value-)** |  
    | 60 min | **Q&A and Closing discussions** |  
 
 4. Keep the sessions interactive. Start by spending 3-4 min to  
    a. Get current mood/ excitement of audience  
    b, Ask audience about their expectations from the sessions  
-   c. Are they familiar with ADX already? Completely new? Did they use KQL in other Azure products like Log Analytics or App Insights?  
+   c. Are they familiar with Fabric RTA already? Completely new? Did they use KQL in other Azure products like Log Analytics or App Insights?  
    d. What roles are the audience majorly from? (Internal/External, Sellers/CSAs/GBBs/Customers/Partners)
    
 Tip: Use Polls, Reactions or a similar feature to drive interaction and collect data.
 
 # Start with a Presentation:  
 
-On both Day 1 and Day 2, Partcipants will spend 45 min at the start to learn certain Azure Synapse Data Explorer and Kusto Query Language concepts listed below. ADX-In-A-Day presentation is meant to be delivered in the following style.
+On both Day 1 and Day 2, Partcipants will spend 45 min at the start to learn certain Fabric RTA and Kusto Query Language concepts listed below. Fabric RTA-In-A-Day presentation is meant to be delivered in the following style.
 
 - Day 1 : 45 min followed by a 15 min Q&A – Presentation will include
-  	- Introduction to Azure Synapse Data Explorer.
-  	- Value propsoition : Data foot print and growth expected, Importance of Real Time Analytics, Telemetry, Logs and Time series data growth.  
-  	- Current scale at which ADX works. Fun fact about “Kusto” word background.  
-  	- Introduction to Azure Synapse Data Explorer high level end-to-end Architecture (Eco system for ingestion, query and consumptiom)  
-  	- Enterprise ready features  
-  	- Positioning of ADX in Intelligence platform  
-  	- Example business scenario  
-  	- Competition and benchmarks  
-  	- Customer Stories – Any 5  
-  	- ADX schema – Cluster, database, table, functions, Materizlied View, policies  
+  	- Introduction to Fabric
+  	- Value proposition and observational analytics
+  	- Overview of Fabric Real-Time Analytics.
+  	- Relevacy to all verticals
+  	- Highlighted industry scenarios
+  	- RTA high level end-to-end Architecture (Eco system for ingestion, query and consumption)
+  	- RTA Fundamentals E2E Short Demo 1
+  	- Enterprise ready features
+  	- KQL Database, KQL Queryset, Event Streams, Real-Time Dashboards, Power BI
+  	- RTA Data Activator & PBI Demo 2
+  	- Introduction to Data Activator
+  	- RTA Data Activator & Eventstream Demo 3
+  	- Resources
   	- Kusto Query Language introduction, concepts and basic operators  
-  	- SQL and KQL  
-  	- Update policies  
-  	- Optional: Include a demo if you prefer instead of some product slides  
+  	- SQL and KQL
+  	- Schema
+  	- Stored Functions & Update policies
+  	  
 - Day 2 : 30 min followed by a 15 min Q&A – Presentation will include
-  	- Storage and Caching concepts
-  	- Let statements
+  	- Let statements & Parsing
   	- Time series Analysis
   	- ML capabilities
-  	- ADX Dashboards
 
 # Hands-on Labs:  
 
@@ -122,11 +125,11 @@ The Learning sessions are divided into 2 Labs – Lab 1 and Lab 2.
 
 ## Lab 1:
 
-![image](https://github.com/nataliarodri906/FabricRTA-in-a-Day/assets/130388388/0dc3c580-7f1e-446a-82b1-497430cb1706)
+![image](https://github.com/nataliarodri906/FabricRTA-in-a-Day/assets/130388388/f4f7062f-0699-4d85-b6c0-70b5d8b1ea86)
 
 ## Lab 2:  
 
-![image](https://github.com/nataliarodri906/FabricRTA-in-a-Day/assets/130388388/0d855df8-207d-4508-9266-d5a5dd0f4807)
+![image](https://github.com/nataliarodri906/FabricRTA-in-a-Day/assets/130388388/d95b5086-f877-47b8-b24c-c97b0de65b30)
 
 # Frequently Asked Questions (FAQ):
 
@@ -165,10 +168,10 @@ Or you can try a challenging yet fun game to solve some real world puzzles using
 For Customer or Partners, please write to us at adxcse@microsoft.com  
 
 ## Technical Questions:
-A dedicated document will be created for Azure Synapse Data Explorer technical questions.
+A dedicated document will be created for Fabric RTA technical questions.
 
 # Contribution to the Program:
-ADX-In-A-Day is a learning program accessible to everyone. To continuously improve the program, we encourage the instructors/proctors to take active part in contributing to the program. We encourage you to contribute using any of the following approaches.
+Fabric RTA-In-A-Day is a learning program accessible to everyone. To continuously improve the program, we encourage the instructors/proctors to take active part in contributing to the program. We encourage you to contribute using any of the following approaches.
 
 - Raise a pull request on git hub pages with modifications/corrections/additions/removal of the content.
 - Bring participants feedback to the product group.
@@ -177,19 +180,19 @@ ADX-In-A-Day is a learning program accessible to everyone. To continuously impro
 
 # Useful Resources:
 
-The following resources will be useful to successfully deliver ADX-In-A-Day
+The following resources will be useful to successfully deliver Fabric RTA-In-A-Day
 
 ## Presentation and intro video
 **placeholder **
 
 ## Important links
 
-- [ADX-In-A-Day Landing/Home Page](https://github.com/Azure/ADX-in-a-Day)
-- [ADX-In-A-Day Lab 1](https://github.com/Azure/ADX-in-a-Day-Lab1#lab1-cluster-creation-data-ingestion-and-exploration)
-- [ADX-In-A-Day Lab 2](https://github.com/Azure/ADX-in-a-Day-Lab2)
+- [Fabric Real-Time Analytics in a Day Landing/Home Page](https://github.com/microsoft/FabricRTA-in-a-Day#fabric-real-time-analytics-in-a-day)
+- [Fabric RTA-In-A-Day Lab 1](https://github.com/microsoft/FabricRTA-in-a-Day/blob/main/Lab1.md#lab1-kql-database-creation-data-ingestion-and-exploration)
+- [Fabric RTA-In-A-Day Lab 2](https://github.com/microsoft/FabricRTA-in-a-Day/blob/main/Lab2.md#lab-2-advanced-kql-policies-and-visualization)
 
-- [Lab 1 - Answer Sheet 1](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR3OPKsBBsbBPqE1PnbPVwDdUNTlUNVc4UEJGTjlQUFlMWERXRzdHNzlWSyQlQCN0PWcu)
-- [Lab 2 - Answer Sheet 2](
+- [Lab 1 - Quiz](https://forms.office.com/r/bV9RCiLVuJ)  
+- [Lab 2 - Quiz](https://forms.office.com/r/fpSN0r7QLt)  
 - [Feedback Form]
 
 - [Credly Badge site](https://www.credly.com/org/microsoft-azure-data-explorer/badge/azure-data-explorer-in-a-day)
