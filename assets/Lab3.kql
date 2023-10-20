@@ -1,0 +1,30 @@
+.create table logsRaw(
+    Timestamp:datetime, 
+    Source:string, 
+    Node:string, 
+    Level:string, 
+    Component:string, 
+    ClientRequestId:string, 
+    Message:string, 
+    Properties:dynamic
+) 
+
+
+// create ES, start notebook, preview stream, set ES destination kqldb
+
+logsRaw
+| take 10
+
+//rate
+logsRaw
+| where ingestion_time() > ago(1d)
+| make-series count() default=0 on ingestion_time() step 1m 
+| render timechart 
+
+
+//lag
+logsRaw
+| where ingestion_time() >ago(1m)
+| summarize m=max(ingestion_time())
+| project lag=now()-m
+
