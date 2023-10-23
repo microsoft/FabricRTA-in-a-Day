@@ -141,6 +141,8 @@ The KQL Queryset exists within the context of a workspace. A new KQL queryset is
     > You can create multiple KQL Querysets in a single workspace.
 
 1. Select **Create**
+2. Connect to KQL Database created earlier
+    ![Connect to KQL Database](/assets/images/SelectKQLDBFabricRTAInaDay.png "Screenshot of Connecting to KQL Database.")
 1. Now you can write a simple KQL query:
 
     ```kql
