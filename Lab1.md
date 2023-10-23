@@ -56,7 +56,7 @@ In this Challenge, you will create a KQL database. You will run simple KQL query
 
 1. Enter your database name, then select **Create**.
 
-    ![New KQL Database](/assets/images/new-database.png "New KQL Database")
+    ![New KQL Database](/assets/images/CreateKQLDBFabricRTAInaDay.png "New KQL Database")
 
 The KQL database has now been created within the context of the selected workspace.
 
