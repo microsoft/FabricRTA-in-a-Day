@@ -193,6 +193,7 @@ KQL Database supports several ingestion methods, including Eventstream, Fabric P
         Properties:dynamic
     ) 
     ```
+2. Click on refresh to see the new table on the left
 
 ### **Challenge 2, Task 2: Use the “One-click” UI (User Interface) to ingest data from Azure blob storage**
 
