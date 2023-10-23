@@ -148,7 +148,7 @@ The KQL Queryset exists within the context of a workspace. A new KQL queryset is
     ```
 1. Highlight the line with the code and hit the **Run** button. The query will be executed and its result can be seen in the result grid at the bottom of the page.
 
-   ![Hello world KQL query](/assets/images/Hello-world-query.png "Screenshot of Hello World KQL query.")
+   ![Hello world KQL query](/assets/images/HelloWorld.png "Screenshot of Hello World KQL query.")
    
 Kusto Query Language can also be used in other services that are built on-top of Kusto query Engine, like:
 
