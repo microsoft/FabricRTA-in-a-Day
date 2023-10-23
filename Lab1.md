@@ -56,7 +56,7 @@ In this Challenge, you will create a KQL database. You will run simple KQL query
 
 1. Enter your database name, then select **Create**.
 
-    ![New KQL Database](/assets/images/new-database.png "New KQL Database")
+    ![New KQL Database](/assets/images/CreateKQLDBFabricRTAInaDay.png "New KQL Database")
 
 The KQL database has now been created within the context of the selected workspace.
 
@@ -141,6 +141,8 @@ The KQL Queryset exists within the context of a workspace. A new KQL queryset is
     > You can create multiple KQL Querysets in a single workspace.
 
 1. Select **Create**
+2. Connect to KQL Database created earlier
+    ![Connect to KQL Database](/assets/images/SelectKQLDBFabricRTAInaDay.png "Screenshot of Connecting to KQL Database.")
 1. Now you can write a simple KQL query:
 
     ```kql
@@ -148,7 +150,7 @@ The KQL Queryset exists within the context of a workspace. A new KQL queryset is
     ```
 1. Highlight the line with the code and hit the **Run** button. The query will be executed and its result can be seen in the result grid at the bottom of the page.
 
-   ![Hello world KQL query](/assets/images/Hello-world-query.png "Screenshot of Hello World KQL query.")
+   ![Hello world KQL query](/assets/images/HelloWorld.png "Screenshot of Hello World KQL query.")
    
 Kusto Query Language can also be used in other services that are built on-top of Kusto query Engine, like:
 
@@ -191,6 +193,7 @@ KQL Database supports several ingestion methods, including Eventstream, Fabric P
         Properties:dynamic
     ) 
     ```
+2. Click on refresh to see the new table on the left
 
 ### **Challenge 2, Task 2: Use the “One-click” UI (User Interface) to ingest data from Azure blob storage**
 
