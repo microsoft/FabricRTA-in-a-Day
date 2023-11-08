@@ -39,3 +39,21 @@ When you open a reflex, you see two tabs at the bottom of the screen that switch
 ![Get Started with Data Activator](/assets/images/data-activator-get-started-02.png "Screenshot of data activator switch between data mode and design mode.")
 
 - ## Challenge 12: Get Data From Eventstreams
+
+### Connect your Eventstream item to Data Activator
+
+To connect your Eventstream item to data activator:
+
+1. Open your Eventstream item from Lab 3
+2. Add a destination to your Eventstream item, of type *Reflex*
+ 
+![Open your Eventstream item](/assets/images/Lab4-select-reflex-destination.png "Screenshot of reflex event stream item.")
+
+4. In the side panel, select an existing reflex item from previous Challenge then select *Add.*
+  
+5. Open your reflex item. You see the data flowing from your Eventstream item in the data pane.
+
+ ![Open your reflex item](/assets/images/Lab4-select-reflex-destination2.png "Screenshot of selecting reflex item.")
+    
+   
+
