@@ -45,7 +45,7 @@ Instructor are expected to:
 - Unblock any individual or group with task specific guidance.  
 - Ensuring maximum tasks and feedback completion rate. Ex: Be sure to mention that participants completing all challenges will be issued a 'Fabric RTA-In-A-Day' completion badge from Credly.
   
-  	![image](https://github.com/nataliarodri906/FabricRTA-in-a-Day/assets/130388388/02ace8f4-8e99-4156-9dcd-4fe2d4e4bb03)
+  	![badgeplaceholder](badgeplaceholder.png) "badge placeholder"
 
 - Improve the program by taking the feedback from participants back to Product Group.  
 - Improve the program by raising pull requests for bug fixes/content enhancement.  
