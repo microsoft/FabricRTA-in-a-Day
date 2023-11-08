@@ -21,7 +21,7 @@ This Lab will focus on enabling the participants to write Kusto queries to explo
 ---
 Earn a digital badge! In order to receive the KQL-Database-In-A-Day completion digital badge, you will  need to complete the challenges marked with ✅ in each Lab. Please submit the results using the answer sheet found at the beginning of Lab. </br>
 
-![badgeplaceholder](./assets/badgeplaceholder.png) "badge placeholder"
+![badgeplaceholder](./assets/badgeplaceholder.png "badge placeholder")
 
 ---
 
