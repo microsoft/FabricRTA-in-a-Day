@@ -8,3 +8,32 @@ This Lab is organised into the following 3 challenges:
 | [Challenge 13](#challenge-7-going-more-advanced-with-kql)| Create Objects and Triggers| 15 Min|
 
 - ◀️ [Return to Homepage](readme.md)
+
+- ## Challenge 11: Create Reflex Item
+
+## Get started with Data Activator
+
+The first step in using Data Activator is for your administrator to enable Data Activator for your organization. The following image shows where to enable Data Activator in the Admin portal.
+
+:::image type="content" source="media/data-activator-get-started/data-activator-get-started-04.png" alt-text="Screenshot of enabling data activator in the admin portal.":::
+
+Next, select the Data Activator experience in Microsoft Fabric, then select it from the menu at the bottom of the screen to tailor your Fabric experience to Data Activator.
+
+:::image type="content" source="media/data-activator-get-started/data-activator-get-started-01.png" alt-text="Screenshot of data activator fabric experience.":::
+
+
+## Create a reflex item
+
+As with all Fabric experiences, you begin using Data Activator by creating an item in a Fabric Workspace. Data Activator’s items are called *reflexes.*
+
+A reflex holds all the information necessary to connect to data, monitor for conditions, and act. You'll typically create a reflex for each business process or area you’re monitoring.
+
+To get started, you create a reflex item in your Fabric workspace. From the New menu in the workspace, choose the **Reflex** item.
+
+:::image type="content" source="media/data-activator-get-started/data-activator-get-started-03.png" alt-text="Screenshot of selecting a new data activator reflex item.":::
+
+## Navigate between data mode and design mode
+
+When you open a reflex, you see two tabs at the bottom of the screen that switch between **data mode** and **design mode**. In data mode, you can see your incoming data and assign it to objects. In design mode, you build triggers from your objects. At first, these will be empty; the next step after creating a reflex is to populate it with your data.
+
+:::image type="content" source="media/data-activator-get-started/data-activator-get-started-02.png" alt-text="Screenshot of data activator switch between data mode and design mode.":::
