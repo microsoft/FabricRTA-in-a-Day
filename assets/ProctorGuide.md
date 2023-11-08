@@ -159,7 +159,7 @@ The Learning sessions are divided into 2 Labs – Lab 1 and Lab 2.
 **A:** Please use the relevant field in feedback form to express your interest. We will contact you to collaborate.  
 
 *Q:* *I have completed Fabric RTA-In-A-Day. What can I do to get deep technical knowledge and hands-on about Fabric RTA.*   
-**A:** Try the L300: Fabric RTA FlightStream, L300: ADX Microhack, L100-L400: Kusto Detective Agency, L300: Book PDF, L300-400: KQL Graph 
+**A:** Try the L300: [Fabric RTA FlightStream](https://github.com/microsoft/fabric-rta-flightstream), L300: [ADX Microhack](https://aka.ms/adx.microhack), L100-L400: [Kusto Detective Agency](https://detective.kusto.io), L300: Book [MustLearnKQL](https://aka.ms/mustlearnkql) [PDF](https://raw.githubusercontent.com/rod-trent/MustLearnKQL/4aa6b50dc94f5124938d5f838dde343ef25f8eb2/Book_Version/MustLearnKQL_Book.pdf), L300-400: [KQL Graph](https://techcommunity.microsoft.com/t5/azure-data-explorer-blog/how-to-visualize-graphs-in-kusto-using-plotly-and-python/ba-p/3943410) 
 
 *Q:* *Where can I nominate my team/customer/partner for the program?*    
 **A:** For Microsoft employees , you can use the request form – Learning sessions request form. For Customer or Partners, please write to us at (*insert Fabric RTA email here*).    
