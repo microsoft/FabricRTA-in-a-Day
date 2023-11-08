@@ -116,8 +116,13 @@ On both Day 1 and Day 2, Partcipants will spend time at the start to learn certa
   	- Time series Analysis
   	- ML capabilities
 
-# Hands-on Labs:  
 
+# Pre-requisites
+- Provisioned Fabric environment or Trial.
+- See https://aka.ms/fabric-trial or [Provision Fabric Trial Tenant](/assets/ProvisionFabricTrialTenant.md). 
+
+
+# Hands-on Labs:  
 Participants are required to complete 2 labs in the hands-on session to earn digital badge. Each lab is divded into 4 challenges and each challenge has a set of tasks. Some tasks are aimed at introducing the capability while others are requirements that need to be fulfilled to earn the badge. Tasks that require pasting queries in the answer sheets are marked with a ‘graduation hat’ 🎓next to the task header. Answer sheet for each lab is linked at the start of lab on the respective GitHub pages. Participants only need to paste the queries relating to tasks in the respective sections in answer sheets.
 
 The Learning sessions are divided into 2 Labs – Lab 1 and Lab 2. 
