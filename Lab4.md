@@ -38,4 +38,4 @@ When you open a reflex, you see two tabs at the bottom of the screen that switch
 
 ![Get Started with Data Activator](/assets/images/data-activator-get-started-02.png "Screenshot of data activator switch between data mode and design mode.")
 
-- ## Challenge 12: Get Data from Eventstreams
+- ## Challenge 12: Get Data From Eventstreams
