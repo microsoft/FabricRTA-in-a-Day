@@ -3,14 +3,14 @@
 This Lab is organised into the following 3 challenges:
 |Challenge | Description | Est. Time|
 |--|--|--|
-| [Challenge 12](#challenge-11-create-reflex-item)| Create Reflex Item| 5 Min|
-| [Challenge 13](#challenge-12-get-data-from-eventstreams)| Get Data From Eventstreams| 10 Min|
-| [Challenge 14](#challenge-13-create-data-activator-objects)| Create Data Activator Objects| 10 Min|
-| [Challenge 15](#challenge-14-create-data-activator-triggers)| Create Data Activator Triggers| 10 Min|
+| [Challenge 13](#challenge-11-create-reflex-item)| Create Reflex Item| 5 Min|
+| [Challenge 14](#challenge-12-get-data-from-eventstreams)| Get Data From Eventstreams| 10 Min|
+| [Challenge 15](#challenge-13-create-data-activator-objects)| Create Data Activator Objects| 10 Min|
+| [Challenge 16](#challenge-14-create-data-activator-triggers)| Create Data Activator Triggers| 10 Min|
 
 - ◀️ [Return to Homepage](readme.md)
 
-- ## Challenge 11: Create Reflex Item
+- ## Challenge 13: Create Reflex Item
 
 ### Get started with Data Activator
 
@@ -39,7 +39,7 @@ When you open a reflex, you see two tabs at the bottom of the screen that switch
 
 ![Get Started with Data Activator](/assets/images/data-activator-get-started-02.png "Screenshot of data activator switch between data mode and design mode.")
 
-- ## Challenge 12: Get Data From Eventstreams
+- ## Challenge 14: Get Data From Eventstreams
 
 ### Connect your Eventstream item to Data Activator
 
@@ -60,7 +60,7 @@ To connect your Eventstream item to data activator:
  
  ![Data Preview](/assets/images/Lab4_DataPreview.png "Screenshot of Data Preview.")
  
- - ## Challenge 13: Create Object and Triggers
+ - ## Challenge 15: Create Data Activator Object
 
 ### Assign data to objects in Data Activator
 
@@ -76,7 +76,6 @@ When you create an object, you're switched to **Design mode** with the event str
 
 ![Engine events](/assets/images/Lab4_EngineEvents.png "Screenshot of EngineEvents.")
 
-
 By default the events for five random instances for the previous 24 hours are displayed in the chart. You can change this using the population selector and time selectors above the card.
 
-
+ - ## Challenge 16: Create Data Activator Trigger
