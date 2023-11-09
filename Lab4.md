@@ -117,11 +117,11 @@ The second chart show the total number of times the trigger would have fired, fo
 
 Finally, the act card lets you choose what to do when the condition is detected.
 
-:::image type="content" source="media/data-activator-create-triggers-design-mode/data-activator-create-triggers-design-mode-06.png" alt-text="Screenshot of selecting an action when a condition is detected.":::
+![selecting an action when a condition is detected](/assets/images/data-activator-create-triggers-design-mode-06.png "Screenshot of selecting an action when a condition is detected.")
 
 Different action types have different parameters, such as the email address you want to send to, the workflow you want to start, subject line or additional information etc.
 
-:::image type="content" source="media/data-activator-create-triggers-design-mode/data-activator-create-triggers-design-mode-07.png" alt-text="Screenshot of sending a message when a condition is detected.":::
+![sending a message when a condition is detected](/assets/images/Lab4_send_teams_msg_when_triger_cond_met.png "Screenshot of sending a message when a condition is detected.")
 
 ## Test your trigger
 
@@ -130,14 +130,13 @@ After you have created a trigger, you can test it by selecting *Send me a test a
 * The test alert will always go to you, regardless of the recipient field in the *Act* card
 * The *Send me a test alert* option is only enabled if you have had at least one past event for which the trigger condition is true.
 
-:::image type="content" source="media/data-activator-create-triggers-design-mode/data-activator-create-triggers-design-mode-08.png" alt-text="Screenshot of testing a trigger.":::
-
+![testing a trigger](/assets/images/Lab4_test_trigger.jpg "Screenshot of testing a trigger.")
 
 ## Start and stop your trigger
 
 Triggers are created in a 'Stopped' state. This means they're not being evaluated as data flows into the system, and won't take any actions as a result. You also need to select Start from the toolbar for Data Activator to start running the trigger and taking action. 
 
-:::image type="content" source="media/data-activator-create-triggers-design-mode/data-activator-create-triggers-design-mode-09.png" alt-text="Screenshot of starting a trigger.":::
+![starting a trigger](/assets/images/Lab4_start_trigger.jpg "Screenshot of starting a trigger.")
 
 Once started, you'll see *Running* appears in the title area of the property.
 
@@ -145,14 +144,3 @@ The toolbar changes to allow you to Stop the trigger. If you make changes to the
 
 When you delete a trigger (or Object), it can take up to 5 minutes for any back-end processing of data to complete. This means your trigger may continue to monitor data, and take actions accordingly, for a few minutes after it has been deleted.
 
-## Create properties
-
-Sometimes, you need to reuse trigger logic across multiple triggers. This is where properties come in. You can create a property that defines a reusable condition or measure, then reference that property from multiple triggers.
-
-To create a property, select *New Property* from the ribbon, then define your property logic. Here, we define a property called *Maximum Temp last hour* on a package object:
-
-:::image type="content" source="media/data-activator-create-triggers-design-mode/data-activator-create-triggers-design-mode-10.png" alt-text="Screenshot of creating a property for a trigger.":::
-
-Once you have defined a property, you can reference it from one or more triggers, using the select card. In the following image, we reference the property we made earlier in a *Package too warm* trigger:
-
-:::image type="content" source="media/data-activator-create-triggers-design-mode/data-activator-create-triggers-design-mode-11.png" alt-text="Screenshot of package too warm property for a trigger.":::
