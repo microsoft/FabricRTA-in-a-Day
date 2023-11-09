@@ -3,9 +3,10 @@
 This Lab is organised into the following 3 challenges:
 |Challenge | Description | Est. Time|
 |--|--|--|
-| [Challenge 11](#challenge-11-create-reflex-item)| Create Reflex Item| 5 Min|
-| [Challenge 12](#challenge-12-get-data-from-eventstreams)| Get Data From Eventstreams| 15 Min|
-| [Challenge 13](#challenge-7-going-more-advanced-with-kql)| Create Objects and Triggers| 15 Min|
+| [Challenge 12](#challenge-11-create-reflex-item)| Create Reflex Item| 5 Min|
+| [Challenge 13](#challenge-12-get-data-from-eventstreams)| Get Data From Eventstreams| 10 Min|
+| [Challenge 14](#challenge-13-create-data-activator-objects)| Create Data Activator Objects| 10 Min|
+| [Challenge 15](#challenge-14-create-data-activator-triggers)| Create Data Activator Triggers| 10 Min|
 
 - ◀️ [Return to Homepage](readme.md)
 
@@ -54,6 +55,28 @@ To connect your Eventstream item to data activator:
 5. Open your reflex item. You see the data flowing from your Eventstream item in the data pane.
 
  ![Open your reflex item](/assets/images/Lab4-select-reflex-destination2.png "Screenshot of selecting reflex item.")
-    
-   
+ 
+ Data preview at the bottom:
+ 
+ ![Data Preview](/assets/images/Lab4_DataPreview.png "Screenshot of Data Preview.")
+ 
+ - ## Challenge 13: Create Object and Triggers
+
+### Assign data to objects in Data Activator
+
+   Once data is flowing into Data Activator, the next step is to assign your events to objects. You assign events to objects in **Data Mode**, which you can access from the tab at the bottom of the screen. 
+
+## Assign data to a new object
+
+To create an object, pick the events that you wish to monitor, then select **Assign your data** in the ribbon in the data pane. Data Activator prompts you for an Object name and a Key Column. Choose Enginenode as an object name. The Key Column must be a column in your events that uniquely identifies the objects being monitored. In our case it's "Node" Column. Then choose *Assign Properties* and select "Level" Column.
+
+![Assign Data to a new Object](/assets/images/Lab4_CreateReflexDataObject.png "Screenshot of Create new Data Object.")
+
+When you create an object, you're switched to **Design mode** with the event stream for the new object selected. The preview in the following image shows you the events that were received split out by the unique values from the ID column.
+
+![Engine events](/assets/images/Lab4_EngineEvents.png "Screenshot of EngineEvents.")
+
+
+By default the events for five random instances for the previous 24 hours are displayed in the chart. You can change this using the population selector and time selectors above the card.
+
 
