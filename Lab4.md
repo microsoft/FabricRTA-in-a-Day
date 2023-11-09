@@ -3,10 +3,10 @@
 This Lab is organised into the following 3 challenges:
 |Challenge | Description | Est. Time|
 |--|--|--|
-| [Challenge 13](#challenge-11-create-reflex-item)| Create Reflex Item| 5 Min|
-| [Challenge 14](#challenge-12-get-data-from-eventstreams)| Get Data From Eventstreams| 10 Min|
-| [Challenge 15](#challenge-13-create-data-activator-objects)| Create Data Activator Objects| 10 Min|
-| [Challenge 16](#challenge-14-create-data-activator-triggers)| Create Data Activator Triggers| 10 Min|
+| [Challenge 13](#challenge-13-create-reflex-item)| Create Reflex Item| 5 Min|
+| [Challenge 14](#challenge-14-get-data-from-eventstreams)| Get Data From Eventstreams| 10 Min|
+| [Challenge 15](#challenge-15-create-data-activator-object)| Create Data Activator Object| 10 Min|
+| [Challenge 16](#challenge-16-create-and-test-data-activator-trigger)| Create and Test Data Activator Trigger| 10 Min|
 
 - ◀️ [Return to Homepage](readme.md)
 
@@ -78,7 +78,7 @@ When you create an object, you're switched to **Design mode** with the event str
 
 By default the events for five random instances for the previous 24 hours are displayed in the chart. You can change this using the population selector and time selectors above the card.
 
- - ## Challenge 16: Create Data Activator Trigger
+ - ## Challenge 16: Create and Test Data Activator Trigger
 
 Triggers are where you specify the values you want to select from events, the conditions you want to detect, and the actions you want Data Activator to take. 
 
@@ -142,5 +142,6 @@ Once started, you'll see *Running* appears in the title area of the property.
 
 The toolbar changes to allow you to Stop the trigger. If you make changes to the trigger (for example changing the condition it looks for), you need to select Update in the toolbar to make sure that the running trigger uses the new values.
 
-When you delete a trigger (or Object), it can take up to 5 minutes for any back-end processing of data to complete. This means your trigger may continue to monitor data, and take actions accordingly, for a few minutes after it has been deleted.
+![teams message](/assets/images/Lab4_TeamsMessage.png "Screenshot of teams message.")
 
+When you delete a trigger (or Object), it can take up to 5 minutes for any back-end processing of data to complete. This means your trigger may continue to monitor data, and take actions accordingly, for a few minutes after it has been deleted.
