@@ -122,7 +122,7 @@ In this example, you'll use the KQL queryset as a query editor.
 
 The KQL Queryset is the item used to run queries, view, and customize query results on data from a KQL database.  Each tab in the KQL queryset can be associated with a different KQL database, and lets your save queries for later use or share with others to collaborate on data exploration. You can also change the KQL database associated with any tab, allowing you to run the same query on data in different states.
 
-The KQL Queryset uses the Kusto Query language for creating queries, and also supports many SQL functions. For more information about the query language, see [Kusto Query Language overview](/azure/data-explorer/kusto/query/index?context=/fabric/context/context).
+The KQL Queryset uses the Kusto Query language for creating queries, and also supports many SQL functions. For more information about the query language, see [Kusto Query Language overview](https://learn.microsoft.com/azure/data-explorer/kusto/query/index?context=/fabric/context/context&pivots=fabric).
 
 ## Create a KQL queryset
 
