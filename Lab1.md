@@ -729,4 +729,4 @@ In this task, we will use an `update policy` to filter the raw data in the `logs
 - [Kusto update policy - Microsoft Docs](https://docs.microsoft.com/azure/data-explorer/kusto/management/updatepolicy)
 - [Kusto Ingest from Storage - Microsoft Docs](https://learn.microsoft.com/azure/data-explorer/kusto/management/data-ingestion/ingest-from-storage)
 
-🎉 Congrats! You've completed KQL Database in a Day Lab 1. Keep going with [**Lab 2: Advanced KQL, Policies and Visualization**](https://github.com/Azure/KQL-Database-in-a-Day-Lab2)
+🎉 Congrats! You've completed KQL Database in a Day Lab 1. Keep going with [**Lab 2: Advanced KQL, Policies and Visualization**](Lab2.md)
