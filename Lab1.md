@@ -48,11 +48,24 @@ In this Challenge, you will create a KQL database. You will run simple KQL query
 
 * A workspace with a Microsoft Fabric-enabled capacity
 
+## Open Fabric
+
+1. [Open Fabric](https://app.fabric.microsoft.com/home)
+
+1. Select **Synapse Real-Time Analytics**
+
+    ![Select Synapse Real-Time Analytics](assets/images/Challenge1-fabric-overview.png)
+
 ## Create a new KQL database
 
-1. Select **New** > **KQL Database**.
+1. Select **KQL Database**.
 
-   ![Create KQL Database](/assets/images/create-database.png "Create KQL Database")
+    ![Create KQL Database](assets/images/Challenge1-create-database.png)
+
+    It is also possible to create a new KQL database using the menu **Create** > **KQL Database**  
+    
+    ![Create KQL Database](<assets/images/Challenge1-create-database 2.png>)
+  
 
 1. Enter your database name, then select **Create**.
 
