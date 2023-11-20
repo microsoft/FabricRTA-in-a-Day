@@ -622,7 +622,7 @@ For the next task, we will use the `logsRaw` table.
 
 | :question: **Question 4.1**    |
 |:---------------------------|
-| What is property used when creating function that is used for UI functions categorization? |
+| What property is used when creating function that is used for UI functions categorization? |
 
 **References:**
 
