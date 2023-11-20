@@ -212,34 +212,35 @@ KQL Database supports several ingestion methods, including Eventstream, Fabric P
 
 You need to analyze the system logs for Contoso, which are stored in Azure blob storage.
 
-1. Go back to the KQL Database, select the **Get Data** from the menu.
+1. Go back to the KQL Database, select the **Get Data** > **One time** > **Azure storage** from the menu.
   
     ![Get data](/assets/images/IngestFromBlobContainer_rta.png "Screenshot of get data menu.")
 
-3. Select the option **Existing table**.
+3. Pick a destination table:.
 
-   ![Get data](/assets/images/selectexistingtable.png "Screenshot of get existing table.")
+   ![Pick a destination table](/assets/images/Challenge2-Destination.png "Screenshot of the destination")
   
     | :information_source: **Note**    |
     |:---------------------------|
     | We used an example table name as ``logsRaw`` here. You can give any name to your table but be sure to use it in all your queries going forward. |
   
-5. Ingest from Storage:
-Select **Blob container** as the **Source type** in the **Source** tab. As **Ingestion type** you can leave the default selection **One-Time**. For **Select source** you can use the default value **Add URL** because we will add a SAS Url next.
-
-6. In the **Link to source**, paste the following SAS ([*Shared Access Signature*](https://learn.microsoft.com/en-us/shows/inside-azure-for-it/introduction-to-sas-shared-access-signature)) URL of the blob storage. SAS URL is a way to provide limited, time-bound access to Azure storage resources such as Blobs.
+5. Configure the datasource:
+In the **URI**, paste the following SAS ([*Shared Access Signature*](https://learn.microsoft.com/en-us/shows/inside-azure-for-it/introduction-to-sas-shared-access-signature)) URL of the blob storage and select **+**. SAS URL is a way to provide limited, time-bound access to Azure storage resources such as Blobs. Click on **Next**
 
     ```kql
     https://logsbenchmark00.blob.core.windows.net/logsbenchmark-onegb/2014/?sp=rl&st=2022-08-18T00:00:00Z&se=2030-01-01T00:00:00Z&spr=https&sv=2021-06-08&sr=c&sig=5pjOow5An3%2BTs5mZ%2FyosJBPtDvV7%2FXfDO8pLEeeylVc%3D
     ```
 
-7. In the list **Schema defining file** select a file. This file is used to determine the schema of the data. One file is autoselected unless you want to change that. In our example it does not matter which file you choose because all files have the same structure, so you can stick with the autoselected file and click **Next: Schema**.
+    ![Configure the datasource](assets/images/Challenge2-Source.png)
 
-    ![Ingest Data from storage](/assets/images/ingest_from_storage.png "Ingest Data from storage")
+    | :information_source: **Note**    |
+    |:---------------------------|
+    | After selecting the **+** you will get the option to add **File filters**. These are optional and not necessary for this lab. |
 
-8. Under Data format, make sure you select **Keep current table schema** and deselect **Ignore the first record**. Click on **Next: Start ingestion**.
+
+8. Next, you will get a preview of the data. Under **Advanced**, make sure you select **Keep current table schema** and deselect **First row is column header**. Click on **Finish**.
   
-    ![Use schema from ingested data](/assets/images/ingest_from_storage_schema_rta.png "Use schema from ingested data")
+    ![Use schema from ingested data](/assets/images/Challenge2-AdvancedOptions.png "Use schema from ingested data")
   
 9. Wait for the ingestion to be completed, and click **Close**.
 
