@@ -1,4 +1,4 @@
-# Lab 2: Advanced KQL, Policies, and Visualization
+8z4DQ04eXH# Lab 2: Advanced KQL, Policies, and Visualization
 
 This Lab is organised into the following 4 challenges:
 |Challenge | Description | Est. Time|
@@ -12,7 +12,7 @@ This Lab is organised into the following 4 challenges:
 
 ## **Earn a digital badge!**
 
-In order to receive the "KQL-Database-In-A-Day" digital badge, you will need to complete the tasks marked with ✅ in [Lab 1](Lab1.md) & Lab 2. Submit your answers for [Lab 1](https://forms.office.com/r/bV9RCiLVuJ) and Lab 2 quizzes in order to receive the "ADX in a Day" digital badge. You may edit your answers after or try again.
+In order to receive the "Fabric RTA in a Day" digital badge, you will need to complete the tasks marked with ✅ in [Lab 1](Lab1.md) & Lab 2. Submit your answers for [Lab 1](https://forms.office.com/r/bV9RCiLVuJ) and Lab 2 quizzes in order to receive the "Fabric RTA in a Day" digital badge. You may edit your answers after or try again.
 
 | :information_source: **Note**    |
 |:---------------------------|
@@ -510,9 +510,9 @@ Learn and get hands on experience with a full blown ADX cluster and advanced ADX
 
  ![Kusto Detective Agency Badge](/assets/images/kda_badge.png "Kusto Detective Agency Badge")
 
-🎉 Congrats! You've completed the ADX in a Day Lab 2 challenges!
+🎉 Congrats! You've completed the Fabric RTA in a Day Lab 2 challenges!
 
-To earn the digital badge, submit the results of the challenges marked with ✅: [Answer sheet - ADX in a Day Lab 2](https://forms.office.com/r/8z4DQ04eXH)
+To earn the digital badge, submit the results of the challenges marked with ✅: [Quiz Fabric RTA in a Day Lab 2](https://forms.office.com/r/fpSN0r7QLt)
 
 <details>
 <summary><b>Contributing</b></summary><br>
