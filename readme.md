@@ -67,8 +67,9 @@ Generally, when starting with KQL Database in Fabric, you will follow the follow
 
 ### Ready to go? Click on the below links to start the challenges
 - [**Lab 1: Database Creation, Data Ingestion and Exploration**](./Lab1.md)
-
 - [**Lab 2: Advanced KQL, Policies, and Visualization**](./Lab2.md)
+- [**Lab 3: Eventstreams**](./Lab3.md)
+- [**Lab 4: Data Activator**](./Lab4.md)
 
 ## Contributing
 
