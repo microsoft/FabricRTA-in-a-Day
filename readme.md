@@ -12,11 +12,17 @@ Welcome to a One Day, Hands-on workshop on Microsoft Fabric Real-Time Analytics.
 - Monitor & Alert using **Data Activator** (Reflex)
 
 
- [**Lab 1: Database Creation, Data Ingestion and Exploration**](./Lab1.md)
+[**Lab 1: Database Creation, Data Ingestion and Exploration**](./Lab1.md)
 This Lab will focus on enabling the participants to Create a KQL database, and ingest data into the KQL database table - One click ingestion of historic data , update policy to perform ETL and write some KQL queries. 
 
- [**Lab 2: Advanced KQL, Policies, and Visualization**](./Lab2.md)
+[**Lab 2: Advanced KQL, Policies, and Visualization**](./Lab2.md)
 This Lab will focus on enabling the participants to write Kusto queries to explore and analyze the data stored in the KQL database. Participants will also create cool visualizations. It is recommended to complete the Lab 1 before beginning with Lab 2.
+
+[**Lab 3: Eventstreams**](./Lab3.md)
+This Lab focuses on enabling participants by creating Eventstreams, simulate streaming data using a Custom App via Fabric PySpark Notebook. With the streaming data stored in the KQL database participants will also leverage the ingestion wizard and query the data. It is recommended to complete the Lab 1 before starting Lab 3.
+
+[**Lab 4: Data Activator**](./Lab4.md)
+This Lab focuses on alerts using Data Activator (code name: Reflex). Participants leverage Eventstreams from Lab 3 to create a Reflex destination, create a Model in reflex and Actions. It is recommended to complete Lab 1 & 3 prior to starting Lab 4.
 
 ---
 Earn a digital badge! In order to receive the KQL-Database-In-A-Day completion digital badge, you will  need to complete the challenges marked with ✅ in each Lab. Please submit the results using the answer sheet found at the beginning of Lab. </br>
