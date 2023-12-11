@@ -14,7 +14,7 @@ This Lab is organised into the following 3 challenges:
 
 ### Get started with Data Activator
 
-The first step in using Data Activator is for your administrator to enable Data Activator for your organization. The following image shows where to enable Data Activator in the Admin portal.
+The first step in using Data Activator is for your administrator to enable Data Activator for your organization. The following image shows where to enable Data Activator in the Admin portal..
 
 ![Get Started with Data Activator](/assets/images/data-activator-get-started-04.png "Screenshot of enabling data activator in the admin portal.")
 
