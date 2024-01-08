@@ -59,6 +59,10 @@ To connect your Eventstream item to data activator:
  Data preview at the bottom:
  
  ![Data Preview](/assets/images/Lab4_DataPreview.png "Screenshot of Data Preview.")
+
+| :information_source: **Note**    |
+|:---------------------------|
+| If you get an error saying the Reflex does not exist, it may not be activated/enabled yet. Try opening the Reflex and click Get Data using the Sample Simulator Package shipment to enable the reflex with a data model. Then go back to the notebook to simulate the stream again from Lab3 with a new session and your Reflex destination should say Ingesting. If not try deleting the Reflex destination from your Eventstream and readding it to the existing reflex in your workspace. |
  
  - ## Challenge 15: Create Data Activator Object
 
