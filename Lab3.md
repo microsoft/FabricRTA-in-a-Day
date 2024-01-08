@@ -10,7 +10,7 @@ This lab covers streaming data using Eventstreams in Microsoft Fabric Real-time 
 4. create custom app source, copy connectionstrings
 5. create new notebook, import [LogStreamSimulator.ipynb](./assets/LogStreamSimulator.ipynb) from the [assets](./assets) folder in this repo.
 6. paste the connection string of your custom app source.
-7. click Run All button, verify last code cell is ingesting
+7. click Run All button, verify last code cell is ingesting. If either of the last code cells in step 4 fail with error file does not exist, then **refresh the browser page** and **click stop session** to get a new session (not reconnect to existing session), **then click Run All** again. 
 8. open eventstream artifact, preview the data stream
 9. create destination kqldb to exting table logsRaw
 10. complete the ingestion wizard mapping (multijson)
