@@ -201,5 +201,4 @@ The following resources will be useful to successfully deliver Fabric RTA-In-A-D
 
 ## Answers
 
-- [Answers](https://github.com/Azure/ADXIoTAnalytics/blob/main/assets/OfficialDemos/Others/AADv2.kql)
-
+The quizzes provide feedback to help find the answer. We recommed attempting to completing the labs yourself first. If you need to review code used to find the answers or compare, please see lab files that provide correct answers in the [spoiler](spoiler) folder. You must still run the 
