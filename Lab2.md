@@ -405,7 +405,13 @@ Looking at the query results, you can see that the query:
 
 ## Challenge 8: Visualization
 
-Using the Dashboard feature of Azure Data Explorer, build a dashboard using outputs of below 3 queries (on ingestionLogs table).
+| :information_source: **Note** |
+|:------------------------------|
+| This feature is not yet available in Fabric. **Challenge 8 is not required.**|
+
+Realtime Dashboards in Fabric are not publicly available yet. However, to build one, they use the same concepts as Realtime Dashboards in ADX Web UI. You may skip this lab considering the feature is not yet in Fabric, or proceed to build a realtime dashboard using [ADX Web UI](https://aka.ms/adx.try) as part of this learning excercise. Leverage the outputs of the 3 queries below (using ingestionLogs table) connected to your Fabric KQL DB uri. 
+
+Alternatively, you may also proceed to create the visuals using Power BI Reports (which is less speciallized for telemetry types of data) from the output of the 3 queryies below in your QuerySet. Caution that the anomalychart must be refactored to a linechart power bi visual and manually display the anomalies in Power BI. However, the anomalychart will function as instructed below using Realtime Dashboards in ADX Web UI or Fabric RTA (once available). 
 
 ![Create a new dashboard](/assets/images/Challenge8-goto-dashboard.png "Create a new dashboard")
 
