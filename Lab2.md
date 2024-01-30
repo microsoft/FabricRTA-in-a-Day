@@ -508,5 +508,4 @@ There are multiple ways to connect KQLDB and PowerBI depending on the use case.
 
 To earn the digital badge, submit the results of the challenges marked with ✅: [Quiz Fabric RTA in a Day Lab 2](https://forms.office.com/r/fpSN0r7QLt)
 
-▶️ Proceed to [**Lab 3: Eventstreams**](Lab3.md)
-
+▶️ Keep going! Proceed to [**Lab 3: Eventstreams**](Lab3.md)
