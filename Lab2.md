@@ -1,4 +1,4 @@
-## Lab 2: Advanced KQL, Policies, and Visualization
+# Lab 2: Advanced KQL, Policies, and Visualization
 
 This Lab is organised into the following 4 challenges:
 |Challenge | Description | Est. Time|
