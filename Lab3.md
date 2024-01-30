@@ -17,10 +17,10 @@ This lab covers streaming data using Eventstreams in Microsoft Fabric Real-time 
 11. run remaining scripts in [Lab3.kql](Lab3.kql) queryset to check count of rows ingested is continously increasing
 12.  proceed to [Lab4.md](Lab4.md)
 
-
 **Note:** This lab is work-in-progress, screenshots are pending. :)
 Enjoy!
 
 
-## 🎉 Congrats! You've completed Fabric RTA in a Day Lab 3. 
+
+### 🎉 Congrats! You've completed Fabric RTA in a Day Lab 3. 
 ▶️ Keep going! Proceed to [**Lab 4: Data Activator**](Lab4.md)
