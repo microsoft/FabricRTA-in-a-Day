@@ -504,3 +504,5 @@ There are multiple ways to connect KQLDB and PowerBI depending on the use case.
 - [Visualize data using a query imported into Power BI](https://docs.microsoft.com/en-us/azure/data-explorer/power-bi-imported-query)
 
 ## Proceed to [Lab 3](Lab3.md) ▶️ on Eventstreams
+
+To earn the digital badge, submit the results of the challenges marked with ✅: [Quiz Fabric RTA in a Day Lab 2](https://forms.office.com/r/fpSN0r7QLt)
