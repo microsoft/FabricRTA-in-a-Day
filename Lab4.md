@@ -152,9 +152,10 @@ When you delete a trigger (or Object), it can take up to 5 minutes for any back-
 
 
 
-
+## 🎉 Congrats! You've completed Fabric RTA in a Day Lab 4. 
 
 ## Continue your learning journey
+Learn more about Microsoft Fabric at https://aka.ms/fabric-learn 
 
 Learn and get hands on experience with a full blown ADX cluster and advanced ADX topics like Materialized Views, scaling, security, geo mapping and more.
 
@@ -166,8 +167,6 @@ Learn and get hands on experience with a full blown ADX cluster and advanced ADX
 [Kusto Detective Agency](https://detective.kusto.io)
 
  ![Kusto Detective Agency Badge](/assets/images/kda_badge.png "Kusto Detective Agency Badge")
-
-🎉 Congrats! You've completed the Fabric RTA in a Day Lab 4 challenges!
 
 
 <details>
