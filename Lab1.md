@@ -17,7 +17,7 @@ In order to receive the "KQL-Database-In-A-Day" digital badge, you will need to 
 
 | :information_source: **Note**    |
 |:---------------------------|
-| **For Lab 1, please submit the results for the tasks marked with ✅ in the following link**: [Quiz KQL Database in A Day Lab 1](https://forms.office.com/r/bV9RCiLVuJ)
+| **For Lab 1, please submit the results for the tasks marked with ✅ in the following link**: [Quiz Fabric RTA in a Day Lab 1](https://forms.office.com/r/bV9RCiLVuJ)
 
 | :information_source: **Note**    |
 |:---------------------------|
@@ -743,4 +743,10 @@ In this task, we will use an `update policy` to filter the raw data in the `logs
 - [Kusto update policy - Microsoft Docs](https://docs.microsoft.com/azure/data-explorer/kusto/management/updatepolicy)
 - [Kusto Ingest from Storage - Microsoft Docs](https://learn.microsoft.com/azure/data-explorer/kusto/management/data-ingestion/ingest-from-storage)
 
-🎉 Congrats! You've completed KQL Database in a Day Lab 1. Keep going with [**Lab 2: Advanced KQL, Policies and Visualization**](Lab2.md)
+
+
+## 🎉 Congrats! You've completed Fabric RTA in a Day Lab 1. 
+
+To earn the digital badge, submit the results of the challenges marked with ✅: [Quiz Fabric RTA in a Day Lab 1](https://forms.office.com/r/bV9RCiLVuJ)
+
+▶️ Keep going! Proceed to [**Lab 2: Advanced KQL, Policies and Visualization**](Lab2.md)
