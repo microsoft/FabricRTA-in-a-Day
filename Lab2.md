@@ -492,16 +492,19 @@ You can directly add a query from query window to an existing dashboard.
 
 **Up for more challenges?**
 
-## Challenge 9: Prepare management dashboard with PowerBI
+## Challenge 9: Prepare management PowerBI Report with Fabric
 
-Visualize the outputs of any 2 queries in PowerBI using the DirectQuery mode.
+Visualize the outputs of any 2 queries in PowerBI using the DirectQuery mode by clicking _Build Power BI report_
 
-There are multiple ways to connect ADX and PowerBI depending on the use case.
+There are multiple ways to connect KQLDB and PowerBI depending on the use case.
 
 **References:**
-
+- [Visualize data in a Power BI report](https://learn.microsoft.com/fabric/real-time-analytics/create-powerbi-report)
 - [Visualize data using the Azure Data Explorer connector for Power BI](https://docs.microsoft.com/en-us/azure/data-explorer/power-bi-connector)
 - [Visualize data using a query imported into Power BI](https://docs.microsoft.com/en-us/azure/data-explorer/power-bi-imported-query)
+
+## Proceed to [Lab 3](Lab3.md) ▶️ on Eventstreams
+
 
 ## Continue your learning journey
 
