@@ -20,3 +20,7 @@ This lab covers streaming data using Eventstreams in Microsoft Fabric Real-time 
 
 **Note:** This lab is work-in-progress, screenshots are pending. :)
 Enjoy!
+
+
+## 🎉 Congrats! You've completed Fabric RTA in a Day Lab 3. 
+▶️ Keep going! Proceed to [**Lab 4: Data Activator**](Lab4.md)
