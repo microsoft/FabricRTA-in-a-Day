@@ -23,7 +23,7 @@ In order to receive the "KQL-Database-In-A-Day" digital badge, you will need to 
 |:---------------------------|
 | **Please allow us 5 working days to issue the badge**|
 
-![KQL Database in a day Badge](/assets/images/KQLDatabaseBadge.png "KQL Database in a day Badge")
+![Fabric RTA in a day](/assets/images/KQLDatabaseBadge.png "Badge placeholder")
 
 ---
 
