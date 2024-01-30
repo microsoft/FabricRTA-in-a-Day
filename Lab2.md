@@ -1,4 +1,4 @@
-8z4DQ04eXH# Lab 2: Advanced KQL, Policies, and Visualization
+## Lab 2: Advanced KQL, Policies, and Visualization
 
 This Lab is organised into the following 4 challenges:
 |Challenge | Description | Est. Time|
@@ -503,6 +503,10 @@ There are multiple ways to connect KQLDB and PowerBI depending on the use case.
 - [Visualize data using the Azure Data Explorer connector for Power BI](https://docs.microsoft.com/en-us/azure/data-explorer/power-bi-connector)
 - [Visualize data using a query imported into Power BI](https://docs.microsoft.com/en-us/azure/data-explorer/power-bi-imported-query)
 
-## Proceed to [Lab 3](Lab3.md) ▶️ on Eventstreams
+
+## 🎉 Congrats! You've completed Fabric RTA in a Day Lab 2. 
 
 To earn the digital badge, submit the results of the challenges marked with ✅: [Quiz Fabric RTA in a Day Lab 2](https://forms.office.com/r/fpSN0r7QLt)
+
+▶️ Proceed to [**Lab 3: Eventstreams**](Lab3.md)
+
