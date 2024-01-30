@@ -22,7 +22,7 @@ In order to receive the "Fabric RTA in a Day" digital badge, you will need to co
 |:---------------------------|
 | **Please allow us 5 working days to issue the badge**|
 
-![KQL Database in a day](/assets/images/KQLDatabaseBadge.png "KQL Database in a day")
+![Fabric RTA in a day](/assets/images/KQLDatabaseBadge.png "Badge placeholder")
 
 ## Challenge 5: How long will my data be kept? - Caching and Retention Policies
 
