@@ -156,17 +156,12 @@ When you delete a trigger (or Object), it can take up to 5 minutes for any back-
 - ◀️ [Return to Homepage](readme.md)
   
 ## Continue your learning journey
-Learn more about Microsoft Fabric at https://aka.ms/fabric-learn & [Fabric RTA Docs](https://aka.ms/fabric-docs-rta).
-
-Learn and get hands on experience with a full blown ADX cluster and advanced ADX topics like Materialized Views, scaling, security, geo mapping and more.
-
-- [Azure Data Explorer Microhack](https://github.com/Azure/azure-kusto-microhack)
-
- ![ADX Microhack badge](/assets/images/microhack_badge.png "ADX Microhack badge")
-
+- Learn more about Microsoft Fabric at https://aka.ms/fabric-learn & [Fabric RTA Docs](https://aka.ms/fabric-docs-rta).
+- Learn more about [Eventstreams](https://learn.microsoft.com/fabric/real-time-analytics/event-streams/transform-sample-data-and-route-to-kql) or [Data Activator](https://learn.microsoft.com/fabric/data-activator/data-activator-tutorial). 
 - Become a detective and solve some puzzles using Kusto Query Langugage at [Kusto Detective Agency](https://detective.kusto.io) & [SANS2023 Holiday Challange](https://detective.kusto.io/sans2023). You can reuse the same Fabric KQL DB that you have used to complete Fabric RTA in A Day challenges.
-
- ![Kusto Detective Agency Badge](/assets/images/kda_badge.png "Kusto Detective Agency Badge")
+  ![Kusto Detective Agency Badge](/assets/images/kda_badge.png "Kusto Detective Agency Badge")  ![KDA Season 2 Badge](/assets/images/KDAseason2badge.png "Season 2 Badge")  ![SANS2023 Badge](/assets/images/sans2023badge.png "SANS 2023 Badge")
+- Learn and get hands on experience with a full blown ADX cluster and advanced ADX topics like Materialized Views, scaling, security, geo mapping and more at [Azure Data Explorer Microhack](https://aka.ms/adx.microhack)
+  ![ADX Microhack badge](/assets/images/microhack_badge.png "ADX Microhack badge")
 
 
 <details>
