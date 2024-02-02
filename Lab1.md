@@ -21,7 +21,7 @@ In order to receive the "Fabric RTA in a Day" digital badge, you will need to co
 
 | :information_source: **Note**    |
 |:---------------------------|
-| **Please allow us 5 working days to issue the badge**|
+| **Badging is yet to-be-determined. Badges are not currently being issued. **|
 
 ![Fabric RTA in a day](/assets/images/KQLDatabaseBadge.png "Badge placeholder")
 
