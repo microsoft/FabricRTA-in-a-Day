@@ -13,7 +13,7 @@ Each challenge has a set of tasks that need to be completed in order to move on 
 - ◀️ [Return to Homepage](readme.md)
 ## **Earn a digital badge!**
 
-In order to receive the "KQL-Database-In-A-Day" digital badge, you will need to complete the tasks marked with ✅ in Lab 1 & Lab 2. Submit your answers for Lab 1 and Lab 2 quizzes in order to receive the "KQL Database in a Day" digital badge. You may edit your answers after or try again.
+In order to receive the "Fabric RTA in a Day" digital badge, you will need to complete the tasks marked with ✅ in Lab 1 & Lab 2. Submit your answers for Lab 1 and Lab 2 quizzes in order to receive the "KQL Database in a Day" digital badge. You may edit your answers after or try again.
 
 | :information_source: **Note**    |
 |:---------------------------|
