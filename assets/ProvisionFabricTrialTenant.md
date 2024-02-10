@@ -1,18 +1,21 @@
 # Provisioning Fabric Trial Tenant
 ## Value Based Delivery resources
-July 2023
+January 2024
 
 ### Contents
 1. Document Purpose
 2. Technical Design
-3. Procedure
-   1. Email Account Creation
+3. Limitation with Fabric deployment per region
+4. Procedure
+   1. Global Email Account Creation
    2. Create the Microsoft 365 E5 Trial Tenant
    3. Create M365 users
    4. Configure the Fabric Tenant
    5. Enable Fabric Trial Licenses
    6. Provision Fabric Workspaces
    7. Sharing credentials to workshop users
+   8. Activating Users environment
+5. Optimizing Microsoft Fabric Trial Capacities distribution
 
 ## 1.	Document Purpose
 Value Based Delivery (VDB) engagement related to Microsoft Fabric can require Trial Tenant for customer readiness especially for “Upskilling Execution” deliveries.
@@ -46,8 +49,19 @@ However, this program has some specific limitations, in particular the fact that
 ![image](https://github.com/microsoft/FabricRTA-in-a-Day/assets/4984616/63e79a1b-72b7-45f8-847d-86700da34cc0)
 
 
-## 3.	Procedure
-### 3.1	Email Account Creation
+## 3.	Limitation with Fabric deployment per region
+
+Microsoft Fabric is available in the following region (January 2024):
+
+![image](https://github.com/microsoft/FabricRTA-in-a-Day/assets/130388388/1c2e9e71-b9af-4e8a-9673-634f735548b4)
+
+[Fabric region availability - Microsoft Fabric | Microsoft Learn](https://learn.microsoft.com/en-us/fabric/admin/region-availability)
+
+![image](https://github.com/microsoft/FabricRTA-in-a-Day/assets/130388388/daef1313-43bd-4c31-b3d5-2dbce92af2a9)
+
+
+## 4. Procedure
+### 4.1	Global Email Account Creation
 
 Creating an M365 Trial Tenant using the Developer Program requires work or school email address.
 ⚠️The email address can be used to only create one tenant, so it is required to create a dedicated email address before each new tenant creation.
@@ -65,7 +79,7 @@ Make sure the inbox is accessible.
 ![image](https://github.com/microsoft/FabricRTA-in-a-Day/assets/4984616/0bed201c-a9e9-4fa4-841a-4a87baa43a5a)
 
 
-### 3.2	Create the Microsoft 365 E5 Trial Tenant
+### 4.2	Create the Microsoft 365 E5 Trial Tenant
 Use the following link to create the new tenant: https://aka.ms/testM365E5
  
 Type the email address created in the previous step.
@@ -115,7 +129,7 @@ Click on Go to the admin center.
 ![image](https://github.com/microsoft/FabricRTA-in-a-Day/assets/4984616/6d442e9c-adce-48b9-b89c-fd270fd19e1e)
 
 
-### 3.3	Create M365 users
+### 4.3	Create M365 users
 Go to the [Microsoft 365 Admin Center](https://admin.microsoft.com/AdminPortal) and go to the Active users layout.
 
 ![image](https://github.com/microsoft/FabricRTA-in-a-Day/assets/4984616/466c7285-1d47-457f-82b9-38520fd79c87)
@@ -136,7 +150,7 @@ Click on Download user details to obtain temporary user password (should be shar
 ![image](https://github.com/microsoft/FabricRTA-in-a-Day/assets/4984616/42033f76-fae3-487c-99e9-89ea02adb525)
 
 
-### 3.4	Configure the Fabric Tenant
+### 4.4	Configure the Fabric Tenant
 Go to the [Power BI portal](https://app.powerbi.com) and click on the gear icon and select Admin Portal.
 
 ![image](https://github.com/microsoft/FabricRTA-in-a-Day/assets/4984616/5b3d0075-ca02-47ae-96f5-a4855cef38e1)
@@ -145,12 +159,12 @@ On the Admin Portal, go to the Tenant-setting panel. Select Enabled for the User
  
 ![image](https://github.com/microsoft/FabricRTA-in-a-Day/assets/4984616/f9d994be-dcdd-45de-930f-7331662b7d9c)
 
-Select Enabled for the Users can Create Fabric items.
+Select Enabled for the Users can try Microsoft Paid features.
 
 ![image](https://github.com/microsoft/FabricRTA-in-a-Day/assets/4984616/9ebb3bd0-06e3-4909-915c-ad6ed2b8fd89)
  
 
-### 3.5	Enable Fabric Trial Licenses
+### 4.5	Enable Fabric Trial Licenses
 
 Go to the user profile from the Top Right corner and click on Start trial to enable the **Fabric Trial license** for the current user.
 
@@ -168,11 +182,13 @@ Each Fabric Trial Capacity should be visible on the Trial panel:
 
 ![image](https://github.com/microsoft/FabricRTA-in-a-Day/assets/4984616/50e6246c-9cdb-4e9e-b361-9edb5c9fbdd3)
 
-Note: a maximum of 10 Fabric Trial Capacities can be created per tenant.
+Note: a maximum of 5 Fabric Trial Capacities can be created per tenant.
+
+![image](https://github.com/microsoft/FabricRTA-in-a-Day/assets/130388388/e1ae1eca-5b8d-499c-8f89-432f7a363a52)
 
 
-### 3.6	Provision Fabric Workspaces
-As only 10 Fabric Trial Capacities can be granted per tenant, it is recommended to create in advance on Fabric workspace per user and assign them as contributors (their Power BI pro license will be enough).
+### 4.6	Provision Fabric Workspaces
+As only 5 Fabric Trial Capacities can be granted per tenant, it is recommended to create in advance on Fabric workspace per user and assign them as contributors (their Power BI pro license will be enough).
 
 ![image](https://github.com/microsoft/FabricRTA-in-a-Day/assets/4984616/a90a3a69-e46e-4ec1-95a4-3fb908c91ca7)
 
@@ -181,21 +197,21 @@ Assign the user as a contributor to the workspace.
 ![image](https://github.com/microsoft/FabricRTA-in-a-Day/assets/4984616/cb4c7886-5fc0-48a9-aa9b-6dec827a463a)
 
 
-### 3.7	Sharing credentials to workshop users
+### 4.7	Sharing credentials to workshop users
 
 Share to each workshop attendees the respective information.
 
 Ex:
-•	User account: `ArthurSimon@contosofabriclab.onmicrosoft.com`
-•	Temporary password: `Buh75899`
-•	Fabric workspace: `Fabric Workspace 3`
-•	Each workspace user should have their own Fabric environment ready to use.
+-	User account: `ArthurSimon@contosofabriclab.onmicrosoft.com`
+-	Temporary password: `Buh75899`
+-	Fabric workspace: `Fabric Workspace 3`
+-  Each workspace user should have their own Fabric environment ready to use.
 
  ![image](https://github.com/microsoft/FabricRTA-in-a-Day/assets/4984616/99305e16-aa43-4031-8a72-614dfd037b48)
 
 
 
-### 3.8	Activating Users environment
+### 4.8	Activating Users environment
 
 Each user should connect with their account and access the following resources:
 
@@ -209,6 +225,36 @@ Go to the OneDrive app to make sure it will activate for the Labs
 Make sure the user can see the assigned workspace.
 
 ![image](https://github.com/microsoft/FabricRTA-in-a-Day/assets/4984616/e86aa5a5-7fd7-4eba-aef8-6736d4a827c9)
+
+## 5. Optimizing Microsoft Fabric Trial Capacities distribution
+
+First, it is important to understand the difference between:
+-	M365 E5 Trial Licenses
+-	Microsoft Fabric Trial Capacities
+
+When creating a M365 E5 Trial Tenant, you will benefit from 25 M365 E5 licenses you will assign to your users. The individual M365 E5 Licence includes [Power BI Pro](https://powerbi.microsoft.com/en-us/pricing/) to enable collaborative features (publishing content) within collaborative workspaces.
+
+It is also possible to create [Microsoft Fabric Trial Capacities](https://learn.microsoft.com/en-us/fabric/get-started/fabric-trial) (January 2024 : 5 Fabric Trial capacities per tenant). 
+
+![image](https://github.com/microsoft/FabricRTA-in-a-Day/assets/130388388/5c557442-4455-4067-97fd-6f54b6407f58)
+
+As mentioned in the documentation, each user asking for Fabric in Trial mode, becomes the admin of a specific Fabric capacity in trial mode. Users having the Fabric administrator role can see all Fabric Trial capacities.
+
+![image](https://github.com/microsoft/FabricRTA-in-a-Day/assets/130388388/593e56c6-b2cb-4278-a772-3a9bc990c0a8)
+
+That means that only users having this specific assignment (Fabric Trial Capacity) will be able to promote a workspace as a Fabric workspace, and then their capacity will support the workspace workload.
+Nevertheless, the other users can contribute to these Fabric workspaces as far as they have a M365 E5 or Power BI Pro License.
+
+When all Fabric workspaces are created by the global administrator (CSA), all these workspaces will be assigned to the same Fabric capacity trial capacity, which can lead to performance issue, because of scalability issue, based on a single capacity, which is not limitless.
+Therefore, in the case of delivering a Fabric workshop with more than 10 users, it is strongly recommended to spread all workspaces across multiple capacities:
+
+![image](https://github.com/microsoft/FabricRTA-in-a-Day/assets/130388388/9bf3bdd3-e2e7-4309-bcae-b9e089640a04)
+
+The benefit of this design is to distribute all provisioned workspaces between the 5 capacities.
+To achieve this scenario, for each workspace:
+-	Keep the workspace as a Power BI Pro workspace, and add the administrator of the Fabric capacity you are targeting as a workspace administrator
+
+-	Ask to this user to promote the workspace as a workspace in Trial – the workspace should be automatically mapped to the capacity owned by this user.
 
 
 MS-Internal ref: https://aka.ms/DataAI-IP/Fabric-TrialTenant
