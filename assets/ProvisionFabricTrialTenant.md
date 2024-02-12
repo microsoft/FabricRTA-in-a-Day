@@ -182,7 +182,7 @@ Each Fabric Trial Capacity should be visible on the Trial panel:
 
 ![image](https://github.com/microsoft/FabricRTA-in-a-Day/assets/4984616/50e6246c-9cdb-4e9e-b361-9edb5c9fbdd3)
 
-Note: a maximum of 5 Fabric Trial Capacities can be created per tenant.
+Note: a maximum of 5 Fabric Trial Capacities can be created per tenant. Therefore, with this document you'll have 1 tenant > 5 trial capacities > 25 workspaces (1 per user).
 
 ![image](https://github.com/microsoft/FabricRTA-in-a-Day/assets/130388388/e1ae1eca-5b8d-499c-8f89-432f7a363a52)
 
