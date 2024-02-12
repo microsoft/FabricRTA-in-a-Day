@@ -18,7 +18,7 @@ January 2024
 5. Optimizing Microsoft Fabric Trial Capacities distribution
 
 ## 1.	Document Purpose
-Value Based Delivery (VDB) engagement related to Microsoft Fabric can require Trial Tenant for customer readiness especially for “Upskilling Execution” deliveries.
+Value Based Delivery (VDB) engagement related to Microsoft Fabric can require Trial Tenant for customer readiness especially for "Upskilling Execution" deliveries. These instructions provide 1 tenant > 5 trial capacities > 25 workspaces (1 per user).
 
 Creating Trial Tenant allows bypassing security and governance applicable to the customer environment. The procedure described in this document should be executed before the delivery to offer the best experience to the workshop attendees.
 
