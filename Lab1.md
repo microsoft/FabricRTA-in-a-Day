@@ -144,8 +144,8 @@ The KQL Queryset exists within the context of a workspace. A new KQL queryset is
 1. Browse to the desired workspace.
 1. Select **+New** > **KQL Queryset**
 
+<img width="133" alt="Create a KQL queryset 1" src="https://github.com/microsoft/FabricRTA-in-a-Day/assets/64484427/410c04a0-7449-492b-a37f-328d5164bd08">
 
-    ![Create a KQL queryset](/assets/images/new-queryset.png "Screenshot of adding a new KQL queryset from workspace homepage.")
 
 1. Enter a unique name. You can use alphanumeric characters, underscores, periods, and hyphens. Special characters aren't supported.
 
