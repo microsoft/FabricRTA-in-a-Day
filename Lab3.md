@@ -17,7 +17,7 @@ This lab covers streaming data using Eventstreams in Microsoft Fabric Real-time 
 10. open eventstream artifact, preview the data stream
 11. create destination kqldb to exting table logsRaw
 12. complete the ingestion wizard mapping (multijson)
-13. run remaining scripts in [Lab3.kql](Lab3.kql) queryset to check count of rows ingested is continously increasing
+13. run remaining scripts in [Lab3.kql](assets/Lab3.kql) queryset to check count of rows ingested is continously increasing
 14.  proceed to [Lab4.md](Lab4.md)
 
 **Note:** This lab is work-in-progress, screenshots are pending. :)
