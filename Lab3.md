@@ -13,7 +13,7 @@ This lab covers streaming data using Eventstreams in Microsoft Fabric Real-time 
 8. click **Run All** button, verify last code cell is ingesting.
    - If either of the last code cells in step 4 fail with error file does not exist, then **refresh the browser page** and click **stop session** to get a new session (not reconnect to existing session), then click **Run All** again.
    - Errors with **pip's depency resolver** are **okay**, proceeding code cells should run successfully.
-   - ⚠️ If you get `ImportError: cannot import name 'Buffer' from 'typing_extensions'`, replace code cell 2 with: `pip install azure-eventhub==5.11.5 --upgrade --force` and **Run All** again.
+   - ⚠️ If you get `ImportError: cannot import name 'Buffer' from 'typing_extensions'`, replace code cell 2 with: `pip install azure-eventhub==5.11.5 --upgrade --force` and click **Run All** again.
 10. open eventstream artifact, preview the data stream
 11. create destination kqldb to exting table logsRaw
 12. complete the ingestion wizard mapping (multijson)
