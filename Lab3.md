@@ -5,7 +5,7 @@ This lab covers streaming data using Eventstreams in Microsoft Fabric Real-time 
 
 ## Steps
 1. If you skipped Lab1 & 2, this lab requires creating the kqldb first, see _challenge 1 - create kqldb_ in [lab1](Lab1.md)
-2. run first script in [Lab3.kql](Lab3.kql) queryset to create logsRaw table if it does not exist
+2. run first script in [Lab3.kql](assets/Lab3.kql) queryset to create logsRaw table if it does not exist
 3. create eventstream artifact
 4. create custom app source, copy connectionstrings
 5. create new notebook, import [LogStreamSimulator.ipynb](./assets/LogStreamSimulator.ipynb) from the [assets](./assets) folder in this repo. 
