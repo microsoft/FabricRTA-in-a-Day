@@ -10,14 +10,16 @@ This lab covers streaming data using Eventstreams in Microsoft Fabric Real-time 
 4. create custom app source, copy connectionstrings
 5. create new notebook, import [LogStreamSimulator.ipynb](./assets/LogStreamSimulator.ipynb) from the [assets](./assets) folder in this repo. 
 7. paste the connection string of your custom app source.
-8. click Run All button, verify last code cell is ingesting. If either of the last code cells in step 4 fail with error file does not exist, then **refresh the browser page** and **click stop session** to get a new session (not reconnect to existing session), **then click Run All** again. Also, errors with **pip's depency resolver** are okay, proceeding code cells should run successfully.
+8. click **Run All** button, verify last code cell is ingesting.
+   - If either of the last code cells in step 4 fail with error file does not exist, then **refresh the browser page** and click **stop session** to get a new session (not reconnect to existing session), then click **Run All** again.
+   - Errors with **pip's depency resolver** are **okay**, proceeding code cells should run successfully.
    - ⚠️ If you run into this error:
      `ImportError: cannot import name 'Buffer' from 'typing_extensions' (/home/trusted-service-user/cluster-env/trident_env/lib/python3.10/site-packages/typing_extensions.py)`, then replace the contents of cell 2 with `pip install azure-eventhub==5.11.5 --upgrade --force` and rerun it.
-9. open eventstream artifact, preview the data stream
-10. create destination kqldb to exting table logsRaw
-11. complete the ingestion wizard mapping (multijson)
-12. run remaining scripts in [Lab3.kql](Lab3.kql) queryset to check count of rows ingested is continously increasing
-13.  proceed to [Lab4.md](Lab4.md)
+10. open eventstream artifact, preview the data stream
+11. create destination kqldb to exting table logsRaw
+12. complete the ingestion wizard mapping (multijson)
+13. run remaining scripts in [Lab3.kql](Lab3.kql) queryset to check count of rows ingested is continously increasing
+14.  proceed to [Lab4.md](Lab4.md)
 
 **Note:** This lab is work-in-progress, screenshots are pending. :)
 Enjoy!
