@@ -623,7 +623,7 @@ For the next task, we will use the `logsRaw` table.
 
 | :question: **Question 4.1**    |
 |:---------------------------|
-| What property is used when creating function that is used for UI functions categorization? |
+| When creating KQL functions, what property can be used for categorization? |
 
 **References:**
 
