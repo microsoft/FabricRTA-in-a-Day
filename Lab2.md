@@ -258,7 +258,7 @@ Let's extract that to discover the number of records per format.
 
 **References:**
 
-- [`parse-kv`](https://learn.mFicrosoft.com/en-us/azure/data-explorer/kusto/query/parse-kv-operator)
+- [`parse-kv`](https://learn.microsoft.com/en-us/azure/data-explorer/kusto/query/parse-kv-operator)
 
 ---
 
