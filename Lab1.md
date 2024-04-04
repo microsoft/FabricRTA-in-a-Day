@@ -208,8 +208,28 @@ KQL Database supports several ingestion methods, including Eventstream, Fabric P
     ```
 2. Click on refresh to see the new table on the left
 
-### **Challenge 2, Task 2: Use the “One-click” UI (User Interface) to ingest data from Azure blob storage**
+### **Challenge 2, Task 2: Use the "Get Data" UI (User Interface) wizard to ingest data from Azure blob storage**
 
+| :warning: **Warning** |
+|:---------------------------|
+| Due to a known bug with the "Get Data UI", you may encouter an error: **! Blob does not exist**. If so, we ask to kindly use the [One-Click UI](https://dataexplorer.azure.com/oneclick) in the meantime to complete ingesting the files in the blob container for this task. |
+
+#### :warning: Workaround Steps 
+1. Copy the Query URI from Fabric KQL DB
+2. Go to https://dataexplorer.azure.com/oneclick and sign in with the account used for Fabric
+3. Click on Ingest Data tile
+4. Click on Add Connection under the Select Cluster drop down
+5. Paste the Query URI from step 1, click Add.
+6. Select your database
+7. Select Existing table and choose logsRaw table and click Next: Source
+8. Select Blob Container
+9. Paste the URI from the github page. Tab away and a list of files will appear at the bottom.
+10. Click Next: Schema
+11. Check the box of **Keep current table schema**. Upon doing this, your data should be organised into columns with proper column names.
+12. Click on Next: Start ingestion
+13. Upon completion of ingestion, go back to Fabric and continue solving the other challenges and tasks in Fabric.
+
+#### Continuation of Challange 2, Task 2.
 You need to analyze the system logs for Contoso, which are stored in Azure blob storage.
 
 1. Go back to the KQL Database, select the **Get Data** > **One time** > **Azure storage** from the menu.
