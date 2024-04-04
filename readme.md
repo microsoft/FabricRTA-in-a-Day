@@ -71,6 +71,10 @@ Generally, when starting with KQL Database in Fabric, you will follow the follow
 - [**Lab 3: Eventstreams**](./Lab3.md)
 - [**Lab 4: Data Activator**](./Lab4.md)
 
+| :information_source: **Note**    |
+|:---------------------------|
+| The labs will also touch-up on features such as Fabric Lakehouse, OneLake availability, Fabric Notebooks, and Fabric Pipelines |
+
 ## Contributing
 
 This project welcomes contributions and suggestions.  Most contributions require you to agree to a
