@@ -667,7 +667,8 @@ In this task, we will use an `update policy` to filter the raw data in the `logs
 
 4. Update policy can transform and move the data from source table from the time it is created. It cannot look back at already existing data in source table. We will ingest new data into logsraw table and see new data flowing into ingestionLogs table
 
-    ```kql
+```kql
+    
 // Note, setting creationTime to 2024 instead of 2014 due to ADX-free clus soft-delete prediod.
 // This param allows to backfill the table with historical data and index it according ot the creationTime setting.
 
@@ -692,7 +693,7 @@ In this task, we will use an `update policy` to filter the raw data in the `logs
   h'https://logsbenchmark00.blob.core.windows.net/logsbenchmark-onegb/2014/03/08/04/data.csv.gz?sp=rl&st=2022-08-18T00:00:00Z&se=2030-01-01T00:00:00Z&spr=https&sv=2021-06-08&sr=c&sig=5pjOow5An3%2BTs5mZ%2FyosJBPtDvV7%2FXfDO8pLEeeylVc%3D') 
   with (format='csv', 
         creationTime='2024-03-08T04:00:00Z');
-    ```
+```
 
     | :information_source: **Note**    |
     |:---------------------------|
