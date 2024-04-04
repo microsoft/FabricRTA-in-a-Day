@@ -223,11 +223,14 @@ KQL Database supports several ingestion methods, including Eventstream, Fabric P
 6. Select your database
 7. Select Existing table and choose logsRaw table and click Next: Source
 8. Select Blob Container
-9. Paste the URI from the github page. Tab away and a list of files will appear at the bottom.
-10. Click Next: Schema
-11. Check the box of **Keep current table schema**. Upon doing this, your data should be organised into columns with proper column names.
-12. Click on Next: Start ingestion
-13. Upon completion of ingestion, go back to Fabric and continue solving the other challenges and tasks in Fabric.
+9. Paste the following URI from the github page. Tab away and a list of files will appear at the bottom.
+```
+https://logsbenchmark00.blob.core.windows.net/logsbenchmark-onegb/2014/?sp=rl&st=2022-08-18T00:00:00Z&se=2030-01-01T00:00:00Z&spr=https&sv=2021-06-08&sr=c&sig=5pjOow5An3%2BTs5mZ%2FyosJBPtDvV7%2FXfDO8pLEeeylVc%3D
+```
+11. Click Next: Schema
+12. Check the box of **Keep current table schema**. Upon doing this, your data should be organised into columns with proper column names.
+13. Click on Next: Start ingestion
+14. Upon completion of ingestion, go back to Fabric and continue solving the other challenges and tasks in Fabric.
 
 #### Continuation of Challange 2, Task 2.
 You need to analyze the system logs for Contoso, which are stored in Azure blob storage.
