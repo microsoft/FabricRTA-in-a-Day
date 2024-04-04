@@ -73,7 +73,7 @@ Generally, when starting with KQL Database in Fabric, you will follow the follow
 
 | :information_source: **Note**    |
 |:---------------------------|
-| The labs will also touch-up on features such as Fabric Lakehouse, OneLake availability, Fabric Notebooks, and Fabric Pipelines |
+| The labs will also touch-up on features such as Power BI, Fabric Lakehouse, OneLake availability, Fabric Notebooks, and Fabric Pipelines |
 
 ## Contributing
 
