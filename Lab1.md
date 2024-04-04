@@ -212,7 +212,7 @@ KQL Database supports several ingestion methods, including Eventstream, Fabric P
 
 | :warning: **Warning** |
 |:---------------------------|
-| Due to a known bug with the "Get Data UI", you may encouter an error: **! Blob does not exist**. If so, we ask to kindly use the [One-Click UI](https://dataexplorer.azure.com/oneclick) in the meantime to complete ingesting the files in the blob container for this task. |
+| Due to a known bug with the "Get Data UI", you may encouter an error: **! Blob does not exist**. If so, we ask to kindly use the [One-Click UI](https://dataexplorer.azure.com/oneclick) in the meantime to complete ingesting the files in the blob container for this task and follow the Workaround Steps. |
 
 #### :warning: Workaround Steps 
 1. Copy the Query URI from Fabric KQL DB
