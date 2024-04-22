@@ -24,4 +24,4 @@ Notebook _LogStreamSimulator_ 1st codecell that sets variables.
 ```
 ConnectionString = ''
 
-SampleCsv = 'https://iotmonitoringsa26915.blob.core.windows.net/logsbenchmark-onegb/2014/03/08/00/data.csv.gz?sv=2023-01-03&st=2024-04-04T20%3A13%3A52Z&se=2044-04-05T20%3A13%3A00Z&sr=c&sp=rl&sig=vVnjVu0oxiR2KXq1%2FMVuJX17taKBNDeUig9lRh92pLw%3D'
+SampleCsv = 'https://iotmonitoringsa26915.blob.core.windows.net/logsbenchmark-onegb/2014/03/08/00/data.csv.gz?sp=r&st=2024-04-22T13:43:07Z&se=2099-04-22T21:43:07Z&spr=https&sv=2022-11-02&sr=b&sig=F6VFt7bUTBXJZVXTN1Ln9rSuzfaEmiq5dxxEQ1C%2F%2Bpk%3D'
