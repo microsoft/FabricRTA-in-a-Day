@@ -2,7 +2,6 @@
 
 Welcome to a One Day, Hands-on workshop on Microsoft Fabric Real-Time Analytics. Microsoft is delighted to present this challenge based, discover by doing experience divided into 2 labs of 4 Hours each, a total of 8 hours.
 
-
 ## After the workshop, you'll better understand how to
 - Create **KQL database** in your Fabric enabled Power BI workspace
 - Ingest data into KQL Database from storage or **Eventstreams**
@@ -23,11 +22,6 @@ This Lab focuses on enabling participants by creating Eventstreams, simulate str
 
 [**Lab 4: Data Activator**](./Lab4.md)
 This Lab focuses on alerts using Data Activator (code name: Reflex). Participants leverage Eventstreams from Lab 3 to create a Reflex destination, create a Model in reflex and Actions. It is recommended to complete Lab 1 & 3 prior to starting Lab 4.
-
----
-Earn a digital badge! In order to receive the KQL-Database-In-A-Day completion digital badge, you will  need to complete the challenges marked with ✅ in each Lab. Please submit the results using the answer sheet found at the beginning of Lab. </br>
-
-![badgeplaceholder](./assets/badgeplaceholder.png "badge placeholder")
 
 ---
 
