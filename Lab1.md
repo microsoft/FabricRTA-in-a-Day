@@ -227,7 +227,7 @@ KQL Database supports several ingestion methods, including Eventstream, Fabric P
 ```url
 https://logsbenchmark00.blob.core.windows.net/logsbenchmark-onegb/2014/?sp=rl&st=2022-08-18T00:00:00Z&se=2030-01-01T00:00:00Z&spr=https&sv=2021-06-08&sr=c&sig=5pjOow5An3%2BTs5mZ%2FyosJBPtDvV7%2FXfDO8pLEeeylVc%3D
 ```
-:warning: If you receive File Not Found error, please use the backup URL paths mentioned here (blobURIbackup.md)[https://github.com/microsoft/FabricRTA-in-a-Day/blob/main/assets/blobURIbackup.md]
+:warning: If you receive _File Not Found_ or _Remote Name Could Not Be Resolved_ error, please use the backup URL paths mentioned here [blobURIbackup.md](https://github.com/microsoft/FabricRTA-in-a-Day/blob/main/assets/blobURIbackup.md)
 11. Click Next: Schema
 12. Check the box of **Keep current table schema**. Upon doing this, your data should be organised into columns with proper column names.
 13. Click on Next: Start ingestion
@@ -254,7 +254,7 @@ In the **URI**, paste the following SAS ([*Shared Access Signature*](https://lea
     ```url
     https://logsbenchmark00.blob.core.windows.net/logsbenchmark-onegb/2014/?sp=rl&st=2022-08-18T00:00:00Z&se=2030-01-01T00:00:00Z&spr=https&sv=2021-06-08&sr=c&sig=5pjOow5An3%2BTs5mZ%2FyosJBPtDvV7%2FXfDO8pLEeeylVc%3D
     ```
-    :warning: If you receive File Not Found error, please use the backup URL path mentioned here (blobURIbackup.md)[https://github.com/microsoft/FabricRTA-in-a-Day/blob/main/assets/blobURIbackup.md]
+    :warning: If you receive _File Not Found_ or _Remote Name Could Not Be Resolved_ error, please use the backup URL paths mentioned here [blobURIbackup.md](https://github.com/microsoft/FabricRTA-in-a-Day/blob/main/assets/blobURIbackup.md)
 
     ![Configure the datasource](assets/images/Challenge2-Source.png)
 
@@ -718,7 +718,7 @@ In this task, we will use an `update policy` to filter the raw data in the `logs
   with (format='csv', 
         creationTime='2014-03-08T04:00:00Z');
 ```
-:warning: If you receive File Not Found error in `.show operations <operation-id>`, please use the database script mentioned here (blobURIbackup.md)[https://github.com/microsoft/FabricRTA-in-a-Day/blob/main/assets/blobURIbackup.md]
+:warning: If you receive _File Not Found_ or _Remote Name Could Not Be Resolved_ error in `.show operations <operation-id>`, please use the database script mentioned here [blobURIbackup.md](https://github.com/microsoft/FabricRTA-in-a-Day/blob/main/assets/blobURIbackup.md)
 
 
 | :information_source: **Note**    |
