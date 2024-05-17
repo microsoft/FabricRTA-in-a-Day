@@ -224,9 +224,10 @@ KQL Database supports several ingestion methods, including Eventstream, Fabric P
 7. Select Existing table and choose logsRaw table and click Next: Source
 8. Select Blob Container
 9. Paste the following URI from the github page. Tab away and a list of files will appear at the bottom.
-```
+```url
 https://logsbenchmark00.blob.core.windows.net/logsbenchmark-onegb/2014/?sp=rl&st=2022-08-18T00:00:00Z&se=2030-01-01T00:00:00Z&spr=https&sv=2021-06-08&sr=c&sig=5pjOow5An3%2BTs5mZ%2FyosJBPtDvV7%2FXfDO8pLEeeylVc%3D
 ```
+:warning: If you receive File Not Found error, please use the backup URL paths mentioned here (blobURIbackup.md)[https://github.com/microsoft/FabricRTA-in-a-Day/blob/main/assets/blobURIbackup.md]
 11. Click Next: Schema
 12. Check the box of **Keep current table schema**. Upon doing this, your data should be organised into columns with proper column names.
 13. Click on Next: Start ingestion
@@ -250,9 +251,10 @@ You need to analyze the system logs for Contoso, which are stored in Azure blob 
 5. Configure the datasource:
 In the **URI**, paste the following SAS ([*Shared Access Signature*](https://learn.microsoft.com/en-us/shows/inside-azure-for-it/introduction-to-sas-shared-access-signature)) URL of the blob storage and select **+**. SAS URL is a way to provide limited, time-bound access to Azure storage resources such as Blobs. Click on **Next**
 
-    ```kql
+    ```url
     https://logsbenchmark00.blob.core.windows.net/logsbenchmark-onegb/2014/?sp=rl&st=2022-08-18T00:00:00Z&se=2030-01-01T00:00:00Z&spr=https&sv=2021-06-08&sr=c&sig=5pjOow5An3%2BTs5mZ%2FyosJBPtDvV7%2FXfDO8pLEeeylVc%3D
     ```
+    :warning: If you receive File Not Found error, please use the backup URL path mentioned here (blobURIbackup.md)[https://github.com/microsoft/FabricRTA-in-a-Day/blob/main/assets/blobURIbackup.md]
 
     ![Configure the datasource](assets/images/Challenge2-Source.png)
 
@@ -716,6 +718,8 @@ In this task, we will use an `update policy` to filter the raw data in the `logs
   with (format='csv', 
         creationTime='2014-03-08T04:00:00Z');
 ```
+:warning: If you receive File Not Found error in `.show operations <operation-id>`, please use the database script mentioned here (blobURIbackup.md)[https://github.com/microsoft/FabricRTA-in-a-Day/blob/main/assets/blobURIbackup.md]
+
 
 | :information_source: **Note**    |
 |:---------------------------|
