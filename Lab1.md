@@ -225,13 +225,9 @@ KQL Database supports several ingestion methods, including Eventstream, Fabric P
 8. Select Blob Container
 9. Paste the following URI from the github page. Tab away and a list of files will appear at the bottom.
 ```url
-https://adxsamplefiles.blob.core.windows.net/publiccsvsamples/logsbenchmark-onegb/2014
+https://rtainaday.blob.core.windows.net/logsbenchmark-onegb?sp=rl&st=2025-03-12T19:25:59Z&se=2099-03-13T03:25:59Z&spr=https&sv=2022-11-02&sr=c&sig=XxQnOYzmqarwNi8xhRF7zbRMuY8T0WXmz5CVCJMiW0M%3D
 ```
-:warning: If you receive _File Not Found_ or _Remote Name Could Not Be Resolved_ error, please use the backup URL paths mentioned here [blobURIbackup.md](https://github.com/microsoft/FabricRTA-in-a-Day/blob/main/assets/blobURIbackup.md)
-11. Click Next: Schema
-12. Check the box of **Keep current table schema**. Upon doing this, your data should be organised into columns with proper column names.
-13. Click on Next: Start ingestion
-14. Upon completion of ingestion, go back to Fabric and continue solving the other challenges and tasks in Fabric.
+
 
 #### Continuation of Challange 2, Task 2.
 You need to analyze the system logs for Contoso, which are stored in Azure blob storage.
@@ -252,9 +248,9 @@ You need to analyze the system logs for Contoso, which are stored in Azure blob 
 In the **URI**, paste the following SAS ([*Shared Access Signature*](https://learn.microsoft.com/en-us/shows/inside-azure-for-it/introduction-to-sas-shared-access-signature)) URL of the blob storage and select **+**. SAS URL is a way to provide limited, time-bound access to Azure storage resources such as Blobs. Click on **Next**
 
     ```url
-    https://adxsamplefiles.blob.core.windows.net/publiccsvsamples/logsbenchmark-onegb/2014
+    https://rtainaday.blob.core.windows.net/logsbenchmark-onegb?sp=rl&st=2025-03-12T19:25:59Z&se=2099-03-13T03:25:59Z&spr=https&sv=2022-11-02&sr=c&sig=XxQnOYzmqarwNi8xhRF7zbRMuY8T0WXmz5CVCJMiW0M%3D
     ```
-    :warning: If you receive _File Not Found_ or _Remote Name Could Not Be Resolved_ error, please use the backup URL paths mentioned here [blobURIbackup.md](https://github.com/microsoft/FabricRTA-in-a-Day/blob/main/assets/blobURIbackup.md)
+   
 
     ![Configure the datasource](assets/images/Challenge2-Source.png)
 
@@ -697,13 +693,12 @@ In this task, we will use an `update policy` to filter the raw data in the `logs
 // This param allows to backfill the table with historical data and index it according ot the creationTime setting.
 
 .execute database script <|
-.ingest async into table logsRaw (h'https://adxsamplefiles.blob.core.windows.net/publiccsvsamples/logsbenchmark-onegb/2014/03/08/00/data.csv.gz') with (format='csv', creationTime='2024-03-08T00:00:00Z');
-.ingest async into table logsRaw (h'https://adxsamplefiles.blob.core.windows.net/publiccsvsamples/logsbenchmark-onegb/2014/03/08/01/data.csv.gz') with (format='csv', creationTime='2024-03-08T01:00:00Z');
-.ingest async into table logsRaw (h'https://adxsamplefiles.blob.core.windows.net/publiccsvsamples/logsbenchmark-onegb/2014/03/08/02/data.csv.gz') with (format='csv', creationTime='2024-03-08T02:00:00Z');
-.ingest async into table logsRaw (h'https://adxsamplefiles.blob.core.windows.net/publiccsvsamples/logsbenchmark-onegb/2014/03/08/03/data.csv.gz') with (format='csv', creationTime='2024-03-08T03:00:00Z');
-.ingest async into table logsRaw (h'https://adxsamplefiles.blob.core.windows.net/publiccsvsamples/logsbenchmark-onegb/2014/03/08/04/data.csv.gz') with (format='csv', creationTime='2024-03-08T04:00:00Z');
+.ingest async into table logsRaw (h'https://rtainaday.blob.core.windows.net/logsbenchmark-onegb/2014/03/08/00/data.csv.gz?sp=rl&st=2025-03-12T19:25:59Z&se=2099-03-13T03:25:59Z&spr=https&sv=2022-11-02&sr=c&sig=XxQnOYzmqarwNi8xhRF7zbRMuY8T0WXmz5CVCJMiW0M%3D') with (format='csv', creationTime='2024-03-08T00:00:00Z');
+.ingest async into table logsRaw (h'https://rtainaday.blob.core.windows.net/logsbenchmark-onegb/2014/03/08/01/data.csv.gz?sp=rl&st=2025-03-12T19:25:59Z&se=2099-03-13T03:25:59Z&spr=https&sv=2022-11-02&sr=c&sig=XxQnOYzmqarwNi8xhRF7zbRMuY8T0WXmz5CVCJMiW0M%3D') with (format='csv', creationTime='2024-03-08T01:00:00Z');
+.ingest async into table logsRaw (h'https://rtainaday.blob.core.windows.net/logsbenchmark-onegb/2014/03/08/02/data.csv.gz?sp=rl&st=2025-03-12T19:25:59Z&se=2099-03-13T03:25:59Z&spr=https&sv=2022-11-02&sr=c&sig=XxQnOYzmqarwNi8xhRF7zbRMuY8T0WXmz5CVCJMiW0M%3D') with (format='csv', creationTime='2024-03-08T02:00:00Z');
+.ingest async into table logsRaw (h'https://rtainaday.blob.core.windows.net/logsbenchmark-onegb/2014/03/08/03/data.csv.gz?sp=rl&st=2025-03-12T19:25:59Z&se=2099-03-13T03:25:59Z&spr=https&sv=2022-11-02&sr=c&sig=XxQnOYzmqarwNi8xhRF7zbRMuY8T0WXmz5CVCJMiW0M%3D') with (format='csv', creationTime='2024-03-08T03:00:00Z');
+.ingest async into table logsRaw (h'https://rtainaday.blob.core.windows.net/logsbenchmark-onegb/2014/03/08/04/data.csv.gz?sp=rl&st=2025-03-12T19:25:59Z&se=2099-03-13T03:25:59Z&spr=https&sv=2022-11-02&sr=c&sig=XxQnOYzmqarwNi8xhRF7zbRMuY8T0WXmz5CVCJMiW0M%3D') with (format='csv', creationTime='2024-03-08T04:00:00Z');
 ```
-:warning: If you receive _File Not Found_ or _Remote Name Could Not Be Resolved_ error in `.show operations <operation-id>`, please use the database script mentioned here [blobURIbackup.md](https://github.com/microsoft/FabricRTA-in-a-Day/blob/main/assets/blobURIbackup.md)
 
 
 | :information_source: **Note**    |
