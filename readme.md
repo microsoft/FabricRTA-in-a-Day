@@ -50,7 +50,7 @@ This workshop walks through the steps in designing, creating, and configuring KQ
 
 ### Pre-requisites
 - Provisioned Fabric environment or Trial.
-- See https://aka.ms/fabric-trial or [Provision Fabric Trial Tenant](/assets/ProvisionFabricTrialTenant.md). 
+- See https://aka.ms/fabric-trial or [Provision Fabric Trial Tenant](/assets/trialtenant/readme.md). 
 
 ### How to start with KQL Database
 Generally, when starting with KQL Database in Fabric, you will follow the following steps (Fabric RTA Workshop Labs will cover all these steps):
